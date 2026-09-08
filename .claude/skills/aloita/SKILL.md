@@ -98,10 +98,10 @@ Taivuta nimet oikein. Pohjassa lukee `[ETUNIMI]n` ja `[ETUNIMI]a`, mutta suora k
 Näytä lyhyt lista siitä mitä kirjoitettiin, tiedosto per rivi. Kerro samalla, jos jokin kohta jäi tyhjäksi ja miksi.
 
 Kerro sitten mitä tapahtuu seuraavaksi:
-- Käytä järjestelmää viikko oikeisiin kysymyksiin.
+- Käytä järjestelmää oikeisiin kysymyksiin.
 - Kun teet päätöksen, pyydä kirjaamaan se päätöslokiin.
-- Päivänä 7 kirjoita `/tarkista`.
-- Päivänä 14 kirjoita `/kehita`.
+- Kun haluat tietää missä mennään, kirjoita `/tarkista`.
+- Heti sen jälkeen `/kehita` näyttää, mitkä löydöksistä kannattaa korjata ensin.
 
 Ehdota lopuksi ensimmäistä kysymystä, jonka käyttäjä voi kokeilla heti:
 

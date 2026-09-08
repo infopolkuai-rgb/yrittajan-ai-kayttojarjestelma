@@ -12,15 +12,15 @@ Yritys, palvelut ja asiakkaat: `tausta/yritys.md`. Prioriteetit: `tausta/priorit
 
 `ohjeet/tyoskentelymalli.md` (Kolme A:ta ja Neljä T:tä). Lue kerran. Käytä `/kehita`-ajossa.
 
-## Komennot
+## Skillit
 
-| Komento | Milloin |
+| Skilli | Milloin |
 |---|---|
 | `/aloita` | Ensimmäisenä päivänä ja aina kun `haastattelu.md` muuttuu |
-| `/syvenna` | Kun haluat purkaa jonkin asian päästäsi tiedostoon |
+| `/syvenna` | Kun haluat kaivaa jonkin asian päästäsi tiedostoon |
 | `/linkita` | Kun otat käyttöön uuden kansion, projektin tai lähteen |
-| `/tarkista` | Päivänä 7 ja sen jälkeen viikoittain |
-| `/kehita` | Päivänä 14 ja sen jälkeen viikoittain |
+| `/tarkista` | Aina kun haluat tietää missä mennään |
+| `/kehita` | Aina tarkistuksen jälkeen |
 
 ## Missä mikäkin on
 

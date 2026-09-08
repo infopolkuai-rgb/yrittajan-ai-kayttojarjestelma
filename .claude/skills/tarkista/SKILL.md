@@ -1,13 +1,13 @@
 ---
 name: tarkista
-description: Tarkistaa todisteisiin nojaten, toimiiko järjestelmä. Käytä kun käyttäjä sanoo "tarkista", "toimiiko tämä", "missä mennään", "arvioi järjestelmä", "mitä puuttuu", tai viikoittaisessa katsauksessa. Ajaa viisi hakukoetta, pisteyttää Neljä T:tä, nimeää kolme tärkeintä korjausta ja tallentaa päivätyn raportin.
+description: Auditoi jarjestelman todisteisiin nojaten, pisteyttaa sen ja nimeaa kehityskohteet. Käytä kun käyttäjä sanoo "tarkista", "auditoi", "toimiiko tämä", "missä mennään", "arvioi järjestelmä", "mitä puuttuu", tai haluaa tietaa mita kannattaa kehittaa seuraavaksi. Ajaa viisi hakukoetta, pisteyttää Neljä T:tä, nimeää kolme tärkeintä korjausta ja tallentaa päivätyn raportin.
 ---
 
 # Tarkista
 
 Tämä ei kysy, tuntuuko järjestelmä hyvältä. Tämä kokeilee, toimiiko se.
 
-Aja päivänä 7 ja sen jälkeen viikoittain niin kauan kuin rakennat. Kun järjestelmä on vakaa, kuukausittain riittää.
+Aja tämä aina kun haluat tietää missä mennään. Rakennusvaiheessa se kannattaa ajaa usein, myöhemmin harvemmin. Tämän ajon jälkeen kannattaa aina ajaa `/kehita`, joka näyttää mitkä löydöksistä kannattaa korjata ensin.
 
 ## Pisteytyksen perussääntö
 

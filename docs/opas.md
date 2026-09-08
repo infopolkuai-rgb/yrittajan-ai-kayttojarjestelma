@@ -1,6 +1,6 @@
 # Yrittäjän AI-käyttöjärjestelmä
 
-Opas alusta loppuun. Asennus on kolme askelta. Loppu on sitä, mitä sillä tehdään.
+Opas alusta loppuun. Asennus on kolme askelta ja vie noin viisi minuuttia.
 
 ---
 
@@ -12,33 +12,39 @@ Se selittäminen on se ongelma. Se maksaa muutaman minuutin joka kerta ja tekee 
 
 Tämä paketti korjaa sen. Se on kansio tekstitiedostoja, joissa lukee kuka sä olet, mitä sä myyt, kenelle ja millä tyylillä sä kirjoitat. Assistentti lukee ne joka kerta automaattisesti.
 
-Mukana tulee viisi valmista komentoa. Komento on sana, joka alkaa kauttaviivalla. Kirjoitat sen tavalliseen viestikenttään kuten minkä tahansa viestin, ja assistentti vie monivaiheisen homman läpi ilman että ohjaat sitä joka välissä.
+### Mukana tulee viisi valmista skilliä
 
-| Komento | Mitä tekee | Milloin |
+Skilli on tekoälylle kirjoitettu työohje. Siinä lukee mitä tehdään, missä järjestyksessä, mitä kysytään, mihin tiedostoon tulos kirjoitetaan ja mitä ei saa tehdä. Sinun ei tarvitse tietää siitä mitään, koska sä käynnistät sen yhdellä sanalla.
+
+Sana alkaa kauttaviivalla, esimerkiksi `/aloita`. Kirjoitat sen tavalliseen viestikenttään kuten minkä tahansa viestin. Assistentti tunnistaa sanan, avaa oikean työohjeen ja vie homman läpi alusta loppuun ilman että sun tarvitsee ohjata sitä joka välissä.
+
+Ero tavalliseen pyyntöön on siinä, että lopputulos on joka kerta samanlainen. Kun kirjoitat `/tarkista`, saat aina saman rakenteen ja samat mittarit, etkä sitä mitä assistentti sattuu sillä kertaa keksimään.
+
+| Skilli | Mitä tekee | Milloin |
 |---|---|---|
-| `/aloita` | Haastattelee sinut ja täyttää pohjat | Ensimmäisenä päivänä |
-| `/syvenna` | Purkaa yhden asian päästäsi tiedostoon | Aina kun tarve |
-| `/linkita` | Lisää uuden kansion tai lähteen löydettäväksi | Kun otat jotain uutta käyttöön |
-| `/tarkista` | Testaa toimiiko järjestelmä ja antaa pisteet | Päivänä 7, sitten viikoittain |
-| `/kehita` | Vie yhden parannuksen maaliin | Päivänä 14, sitten viikoittain |
+| `/aloita` | Haastattelee sinut ja täyttää pohjat. Käyttöönotto | Ensimmäisenä päivänä |
+| `/syvenna` | Kaivaa yhden asian päästäsi tiedostoon kysymys kerrallaan | Kun jokin iso asia on vain omassa päässäsi |
+| `/linkita` | Lisää uuden kansion, projektin tai lähteen assistentin löydettäväksi | Kun otat jotain uutta käyttöön |
+| `/tarkista` | Auditoi järjestelmän, pisteyttää sen ja nimeää kehityskohteet | Aina kun haluat tietää missä mennään |
+| `/kehita` | Näyttää mitkä parannukset kannattavat eniten suhteessa vaivaan, ja rakentaa valitsemasi | Aina tarkistuksen jälkeen |
+
+Nämä kaksi viimeistä kulkevat parina. `/tarkista` kertoo mikä ontuu, `/kehita` näyttää mistä kannattaa aloittaa ja tekee sen.
 
 **Mitä tämä ei ole.** Ei ohjelma eikä sovellus. Ei omia tunnuksia eikä pilvipalvelua. Kansio, jonka jokaisen tiedoston sä voit avata ja lukea.
 
-**Mihin tämä perustuu.** Toimiva järjestelmä koostuu neljästä kerroksesta. **Tieto** eli se tuntee sun firman, **Työkalut** eli se yltää sinne missä sun tieto on, **Taidot** eli se osaa tehdä sun työsi vaiheet ja **Tahti** eli se toimii ilman että pyydät. Tieto on aina ensin ja Tahti aina viimeisenä. Kaksi ensimmäistä syntyvät tämän oppaan aikana.
+**Mihin tämä perustuu.** Toimiva järjestelmä koostuu neljästä kerroksesta. **Tieto** eli se tuntee sun firman, **Työkalut** eli se yltää sinne missä sun tieto on, **Taidot** eli se osaa tehdä sun työsi vaiheet ja **Tahti** eli se toimii ilman että pyydät. Tieto on aina ensin ja Tahti aina viimeisenä.
 
 ---
 
 ## 2. Mitä tarvitset
 
-**Claude Pro -tilaus, 20 dollaria kuussa.** Noin 19 euroa. Se sisältää Claude Coden, joka on se osa Clauden sovellusta joka osaa lukea koneesi kansioita. Ilmaisversio ei riitä eikä kalliimpaa Max-tilausta tarvita.
+**Claude Pro -tilaus, 20 dollaria kuussa.** Noin 19 euroa. Se sisältää Claude Coden, joka on se osa Claudea joka osaa lukea koneesi kansioita. Ilmaisversio ei riitä eikä kalliimpaa Max-tilausta tarvita.
 
-**Claude-työpöytäsovellus.** Lataa osoitteesta claude.ai/download. Selain ei käy, koska se ei näe sun koneen kansioita.
+**Claude Code jommalla kummalla tavalla.** Työpöytäsovellus on helpompi, ja tämä opas neuvoo sen. Lataa se osoitteesta claude.ai/download. Jos olet tottunut komentoriviin, Claude Code toimii myös terminaalissa, ja silloin komennot ja kansio ovat täsmälleen samat. Selain ei käy, koska se ei näe sun koneen kansioita.
 
-**Tunti aikaa.** Asennus vie viisi minuuttia. Alkuhaastattelu 20-30 minuuttia. Uuteen tapaan tottuminen pari viikkoa, mutta se ei ole työtä.
+**Noin viisi minuuttia asennukseen.** Sen jälkeen assistentti haastattelee sinut, ja siihen menee vartista puoleen tuntiin.
 
-**Kaksi omaa tekstiä.** Sähköposti asiakkaalle, LinkedIn-postaus, tarjous. Mikä tahansa, minkä sä olet oikeasti itse kirjoittanut. Etsi ne valmiiksi, lähetetyt-kansio on paras paikka.
-
-Ohjelmointitaitoa ei tarvita. Komentoriviä ei tarvita.
+Ohjelmointitaitoa ei tarvita.
 
 ---
 
@@ -46,9 +52,21 @@ Ohjelmointitaitoa ei tarvita. Komentoriviä ei tarvita.
 
 Sun ei tarvitse ladata mitään eikä purkaa mitään. Assistentti kasaa kansion puolestasi.
 
-**1. Luo uusi tyhjä kansio.** Vaikka työpöydälle, vaikka yrityksesi nimellä. Älä laita sitä OneDriveen tai Dropboxiin, koska synkronointi ja tiedostojen muokkaus tekevät joskus yhdessä tyhmyyksiä.
+**1. Luo koneellesi uusi kansio.**
 
-**2. Avaa se Claude Codessa.** Avaa Claude-työpöytäsovellus, siirry **Code**-näkymään ja valitse äsken luomasi kansio. Claude kysyy luultavasti lupaa lukea kansiota ja tehdä siihen muutoksia. Vastaa kyllä, kysymys koskee vain tätä kansiota.
+Nimeä se miten haluat. Tärkeää on vain se, että kansio on **sinun koneellasi eikä pilvipalvelussa**. Älä siis luo sitä OneDriveen, Dropboxiin, iCloudiin tai Google Driveen. Synkronointi ja tiedostojen jatkuva muokkaus tekevät yhdessä tyhmyyksiä, ja tiedostoja voi kadota kesken kaiken.
+
+Turvallisia paikkoja ovat esimerkiksi työpöytä tai Tiedostot-kansio, kunhan niitä ei ole kytketty pilveen.
+
+**2. Avaa kansio Claude Codessa.**
+
+Avaa Claude-työpöytäsovellus ja siirry **Code**-näkymään. Valitse sieltä äsken luomasi kansio.
+
+Tarkista viestikentän yläpuolelta, että yhteys kansioon on olemassa. Siinä pitää lukea **Local** ja sen vieressä sinun kansiosi nimi.
+
+![Local-merkintä ja kansion nimi viestikentän yläpuolella](kuvat/local-ja-kansio.png)
+
+Claude kysyy tässä kohtaa luultavasti lupaa lukea kansiota ja tehdä siihen muutoksia. Vastaa kyllä, kysymys koskee vain tätä kansiota.
 
 **3. Liitä tämä viesti ja paina enter.**
 
@@ -58,17 +76,23 @@ Sun ei tarvitse ladata mitään eikä purkaa mitään. Assistentti kasaa kansion
 
 Assistentti hakee tiedostot ja kertoo kun kansio on kasassa. Se kestää minuutin. Voit seurata mitä se tekee, mutta sun ei tarvitse ymmärtää siitä mitään.
 
-**Sen jälkeen avaa uusi keskustelu.** Tämä on tärkeää: viisi komentoa tulevat käyttöön vasta uudessa keskustelussa. Vanhassa ne eivät toimi.
+**Sen jälkeen avaa uusi keskustelu.** Tämä on tärkeää: viisi skilliä tulevat käyttöön vasta uudessa keskustelussa. Vanhassa ne eivät toimi.
 
 ---
 
 ## 4. Jos jokin ei toimi
 
-**En löydä Code-näkymää.** Yleensä syy on tilaus. Tarkista claude.ai-sivulta, että tilaus on Pro eikä Free. Jos tilaus on kunnossa, sulje sovellus kokonaan ja avaa uudelleen. Jos se ei vieläkään näy, lataa sovellus uusimpana versiona osoitteesta claude.ai/download.
+**En löydä Code-näkymää.**
+
+Se on sovelluksen vasemmassa yläkulmassa, samassa rivissä Chat and Cowork -painikkeen kanssa. Moni ei huomaa, että siinä on kaksi eri näkymää.
+
+![Code-välilehti sovelluksen vasemmassa yläkulmassa](kuvat/code-valilehti.png)
+
+Jos välilehteä ei näy lainkaan, syy on yleensä tilaus. Tarkista claude.ai-sivulta, että tilaus on Pro eikä Free. Jos tilaus on kunnossa, sulje sovellus kokonaan ja avaa uudelleen. Jos se ei vieläkään näy, lataa sovellus uusimpana versiona osoitteesta claude.ai/download.
 
 **Asennus ei onnistunut tai kansio jäi puolityhjäksi.** Sano assistentille: *"tarkista mitä kansiosta puuttuu ja hae puuttuvat tiedostot uudestaan"*. Se osaa korjata sen itse.
 
-**Kirjoitin `/aloita` eikä mitään tapahtunut.** Avasitko uuden keskustelun asennuksen jälkeen? Komennot eivät ilmesty siihen keskusteluun, jossa asennus tehtiin. Jos avasit ja se ei silti toimi, kirjoita sen sijaan tämä ja se tekee saman asian:
+**Kirjoitin `/aloita` eikä mitään tapahtunut.** Avasitko uuden keskustelun asennuksen jälkeen? Skillit eivät ilmesty siihen keskusteluun, jossa asennus tehtiin. Jos avasit ja se ei silti toimi, kirjoita sen sijaan tämä ja se tekee saman asian:
 
 > lue tiedosto .claude/skills/aloita/SKILL.md ja toimi sen mukaan
 
@@ -76,7 +100,7 @@ Assistentti hakee tiedostot ja kertoo kun kansio on kasassa. Se kestää minuuti
 
 **Pitääkö kansio avata joka kerta uudestaan?** Ei. Se jää sovelluksen listaan ja valitset sen sieltä.
 
-**Jos mikään näistä ei auta,** laita mulle sähköpostia osoitteeseen ilmari@polkuai.com. Kerro missä kohtaa jumitit ja mitä ruudulla luki. Vastaan samana päivänä. Kysymys ei ole tyhmä.
+**Jos mikään näistä ei auta,** laita mulle sähköpostia osoitteeseen info.polkuai@gmail.com. Kerro missä kohtaa jumitit ja mitä ruudulla luki. Vastaan samana päivänä. Kysymys ei ole tyhmä.
 
 ---
 
@@ -96,7 +120,7 @@ Vastaa rehellisesti, älä kauniisti. Tämä ei ole hakemus vaan asetustiedosto.
 
 Kolme kohtaa, joissa kannattaa hidastaa:
 
-**Kysymys 2 haluaa oikeaa tekstiä.** Liitä ne kaksi tekstiä sellaisenaan. Älä siisti äläkä kirjoita uutta. Jos sä kirjoitat näytteen tähän keskusteluun, sä kirjoitat sen huolellisemmin kuin normaalisti, ja silloin assistentti oppii tyylin jolla sä et oikeasti kirjoita.
+**Kysymys 2 haluaa oikeaa tekstiä.** Etsi kaksi tekstiä, jotka olet itse kirjoittanut, ja liitä ne sellaisenaan. Asiakassähköposti, LinkedIn-postaus tai tarjous käy. Lähetetyt-kansio on paras paikka etsiä. Älä siisti äläkä kirjoita uutta: jos sä kirjoitat näytteen tähän keskusteluun, sä kirjoitat sen huolellisemmin kuin normaalisti, ja silloin assistentti oppii tyylin jolla sä et oikeasti kirjoita.
 
 **Kysymys 3 vaatii numeron.** "Kasvattaa myyntiä" ei kelpaa. "Kolme uutta asiakasta lokakuun loppuun mennessä" kelpaa. Assistentti painostaa tässä kohtaa, ja niin sen kuuluukin tehdä. Ilman lukua se ei voi myöhemmin kertoa, meneekö hyvin.
 
@@ -108,39 +132,11 @@ Kokeile lopuksi tätä:
 
 Vastauksen laatu kertoo, miten haastattelu meni. Jos vastaus on yleistä jaarittelua, jokin kohta jäi ohueksi. Sano assistentille mikä kohta, niin se kysyy siitä lisää.
 
----
-
-## 6. Ensimmäinen viikko
-
-Älä rakenna mitään. Käytä.
-
-Tuo assistentille oikeita kysymyksiä. Asiakkaan sähköposti johon pitää vastata. Tarjous jota mietit. Hinnoittelupulma. Kalenteri joka on täynnä vääriä asioita.
-
-Kolme tapaa, jotka kannattaa ottaa käyttöön heti:
-
-**Pyydä kirjaamaan päätökset.** Kun sä päätät jotain, sano *"kirjaa tämä päätöslokiin"*. Puolen vuoden päästä sä muistat mitä päätit mutta et miksi. Silloin sama keskustelu alkaa alusta.
-
-**Kysy ennen kuin teet käsin.** Kun eteesi tulee uusi homma, kysy *"missä määrin tekoäly voi hoitaa tämän?"* Vastaus on yllättävän usein "suurimman osan".
-
-**Pura asioita päästäsi.** Kun jokin iso asia on selvittämättä, kirjoita `/syvenna`. Se haastattelee sut aiheesta ja tallentaa jokaisen vastauksen. Hyviä aiheita: miten hinnoittelu oikeasti menee, mitä viime projektissa opittiin, miten uusi palvelu pitäisi rakentaa.
-
-Ensimmäisellä viikolla sä olet todennäköisesti hitaampi kuin ennen. Se on normaalia. Kankeus menee ohi noin kahdessa viikossa ja useimmat lopettavat sitä ennen.
+Sen jälkeen käytä järjestelmää oikeisiin kysymyksiin. Kun haluat tietää missä mennään, kirjoita `/tarkista`. Kun haluat kehittää sitä eteenpäin, kirjoita `/kehita`.
 
 ---
 
-## 7. Päivä 7 ja päivä 14
-
-**Päivänä 7 kirjoita `/tarkista`.** Se testaa viidellä kysymyksellä, löytääkö järjestelmä oman tietonsa, ja antaa pisteet niistä neljästä kerroksesta. Sata on maksimi.
-
-Ensimmäinen tulos on yleensä matala. Se on oikein. Pisteitä annetaan vain siitä, mikä on todistettavasti kokeiltu, ei siitä mikä on olemassa. Tyhjä pohja saa nollan vaikka se olisi kaunis. Raportti nimeää kolme korjausta tärkeysjärjestyksessä. Valitse niistä ensimmäinen.
-
-**Päivänä 14 kirjoita `/kehita`.** Se haastattelee sut ja rakentaa yhden asian valmiiksi. Yhden, ei kolmea. Haastattelu tuntuu ehkä turhalta kun sä jo tiedät mitä haluat, mutta sen kysymykset ovat juuri ne, jotka kannattaa oppia kysymään itseltään.
-
-**Sen jälkeen viikoittain.** `/tarkista` kertoo mikä ontuu, `/kehita` korjaa yhden asian. Kolmessa kuukaudessa siitä tulee kaksitoista parannusta.
-
----
-
-## 8. Usein kysyttyä
+## 6. Usein kysyttyä
 
 **Paljonko tämä maksaa?**
 Tämä paketti on ilmainen. Claude Pro maksaa 20 dollaria kuussa. Muuta ei tarvita.
@@ -172,17 +168,17 @@ Saat, liittimillä. Ne otetaan käyttöön Clauden asetuksista. Tämä on toinen
 Kerro sille. Tiedostoissa lukee, että se ei saa arvata lukuja ja että sen pitää sanoa jos se ei tiedä. Jos se silti arvaa, jokin tieto puuttuu. Kirjoita `/tarkista`, se näyttää mistä.
 
 **Meitä on kolme henkeä. Mitä teen?**
-Tee ensin omasi ja käytä sitä kuukausi. Jos se toimii, anna kollegan tehdä samat kolme askelta omaan kansioonsa ja ajaa `/aloita` omilla vastauksillaan.
+Tee ensin omasi ja käytä sitä hetki. Jos se toimii, anna kollegan tehdä samat kolme askelta omaan kansioonsa ja ajaa `/aloita` omilla vastauksillaan.
 
 **Toimiiko tämä ChatGPT:llä?**
-Ei sellaisenaan. Komennot ja tiedostojen luku on tehty Claude Codelle.
+Ei sellaisenaan. Skillit ja tiedostojen luku on tehty Claude Codelle.
 
 **Pitääkö tätä päivittää?**
 Ei tarvitse. Jos teen parannuksia, kerron niistä. Omat vastauksesi eivät katoa, jos otat niistä kopion ensin.
 
 ---
 
-## 9. Kuka tämän teki
+## 7. Kuka tämän teki
 
 Ilmari Salmisto, PolkuAI. Rakennan tekoälyjärjestelmiä ja automaatioita yrityksille.
 
@@ -190,6 +186,6 @@ Tämä paketti on ilmainen ja MIT-lisensoitu. Saat käyttää, muokata ja jakaa 
 
 Jos jokin kohta tökkää tai jos rakennat tästä jotain, laita viestiä. Vastaan samana päivänä.
 
-- Sähköposti: ilmari@polkuai.com
+- Sähköposti: info.polkuai@gmail.com
 - LinkedIn: Ilmari Salmisto
 - polkuai.com

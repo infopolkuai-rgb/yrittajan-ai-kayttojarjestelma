@@ -18,7 +18,7 @@ Ohjeet ovat tiedostossa ASENNUS.md:
 https://github.com/infopolkuai-rgb/yrittajan-ai-kayttojarjestelma/blob/main/ASENNUS.md
 ```
 
-Kun kansio on kasassa, avaa uusi keskustelu ja kirjoita `/aloita`.
+Kun kansio on kasassa, avaa uusi keskustelu ja kirjoita `/aloita`. Skillit tulevat käyttöön vasta uudessa keskustelussa.
 
 Koko ohje ja se mitä asennuksen jälkeen tapahtuu: [docs/opas.md](docs/opas.md).
 
@@ -31,19 +31,19 @@ Tiedostot pysyvät sinun koneellasi. Voit lukea ja muokata jokaista niistä tava
 ## Mitä tarvitset
 
 - Claude Pro -tilaus, 20 dollaria kuussa. Se sisältää Claude Coden.
-- Tunti aikaa ja kaksi omaa tekstiä, jotka olet itse kirjoittanut.
+- Noin viisi minuuttia asennukseen. Haastatteluun vartista puoleen tuntiin.
 
 Ohjelmointitaitoa ei tarvita.
 
-## Viisi komentoa
+## Viisi skilliä
 
-| Komento | Mitä tekee | Milloin |
+| Skilli | Mitä tekee | Milloin |
 |---|---|---|
-| `/aloita` | Haastattelee sinut ja täyttää pohjat | Ensimmäisenä päivänä |
-| `/syvenna` | Purkaa yhden asian päästäsi tiedostoon | Aina kun tarve |
-| `/linkita` | Lisää uuden kansion tai lähteen löydettäväksi | Kun otat jotain uutta käyttöön |
-| `/tarkista` | Testaa toimiiko järjestelmä ja antaa pisteet | Päivänä 7, sitten viikoittain |
-| `/kehita` | Vie yhden parannuksen maaliin | Päivänä 14, sitten viikoittain |
+| `/aloita` | Haastattelee sinut ja täyttää pohjat. Käyttöönotto | Ensimmäisenä päivänä |
+| `/syvenna` | Kaivaa yhden asian päästäsi tiedostoon kysymys kerrallaan | Kun jokin iso asia on vain omassa päässäsi |
+| `/linkita` | Lisää uuden kansion, projektin tai lähteen assistentin löydettäväksi | Kun otat jotain uutta käyttöön |
+| `/tarkista` | Auditoi järjestelmän, pisteyttää sen ja nimeää kehityskohteet | Aina kun haluat tietää missä mennään |
+| `/kehita` | Näyttää mitkä parannukset kannattavat eniten suhteessa vaivaan, ja rakentaa valitsemasi | Aina tarkistuksen jälkeen |
 
 ## Kansiot
 
@@ -58,6 +58,7 @@ Ohjelmointitaitoa ei tarvita.
 ├── tarkistukset/          /tarkista tallentaa tänne. Yksityinen
 ├── arkisto/               Vanhentunut tavara
 ├── docs/opas.md           Koko ohje ihmiselle
+├── docs/kuvat/            Oppaan kuvat
 └── ASENNUS.md             Asennusohje tekoälylle
 ```
 

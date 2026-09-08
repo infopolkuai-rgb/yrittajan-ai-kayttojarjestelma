@@ -1,30 +1,45 @@
 ---
 name: kehita
-description: Viikoittainen kehitysajo, joka vie yhden parannuksen maaliin. Käytä kun käyttäjä sanoo "kehitä", "paranna", "mitä automatisoidaan", "viikkopalaveri", "mitä seuraavaksi rakennetaan", tai päivänä 14 ja sen jälkeen viikoittain. Haastattelee Kolmen A:n mukaan ja rakentaa yhden asian valmiiksi.
+description: Nayttaa mitka parannukset kannattavat eniten suhteessa vaivaan ja rakentaa valitun. Käytä kun käyttäjä sanoo "kehitä", "paranna", "mitä automatisoidaan", "mitä seuraavaksi", "missä on helpoin voitto", tai heti /tarkista-ajon jälkeen. Ehdottaa ensin vaihtoehdot, sitten haastattelee ja rakentaa yhden asian valmiiksi.
 ---
 
 # Kehitä
 
-Yksi ajo, yksi valmis parannus. Ei kolmea puolivalmista.
+Näytä ensin mitä kannattaa parantaa. Anna käyttäjän valita. Rakenna sitten valittu valmiiksi.
 
-Tämä on se skilli, joka opettaa työskentelymallin käyttöön. Haastattelu ei ole muodollisuus: sen kysymykset ovat samat, jotka käyttäjän kannattaa oppia kysymään itseltään.
+Yksi ajo, yksi valmis parannus. Ei kolmea puolivalmista.
 
 Lue ensin `ohjeet/tyoskentelymalli.md`. Lue myös viimeisin raportti kansiosta `tarkistukset/`, tiedosto `paatokset/loki.md` ja `tausta/prioriteetit.md`:n kohta "Viikon aikasyöppö".
 
+## Vaihe 0: Näytä vaihtoehdot
+
+Ennen kysymyksiä kokoa lista siitä, mitä juuri nyt kannattaisi parantaa. Vetäisit lähteet tässä järjestyksessä:
+
+1. Viimeisimmän `/tarkista`-raportin kolme korjausta ja avoimet löydökset.
+2. `tausta/prioriteetit.md`:n viikon aikasyöppö.
+3. Se, minkä olet itse huomannut toistuvan käyttäjän kanssa.
+
+Esitä 3-5 vaihtoehtoa taulukkona. Jokaisesta neljä saraketta: **mikä**, **mitä hyötyä**, **paljonko vaivaa** ja **mihin löydökseen liittyy**.
+
+Arvioi vaiva kolmeportaisesti: pieni tarkoittaa alle tuntia, keskikokoinen yhtä istumaa, iso useampaa kertaa.
+
+**Merkitse helpoin voitto erikseen.** Se on rivi, jossa hyöty on suuri ja vaiva pieni. Jos sellaista ei ole, sano se suoraan äläkä keksi sitä.
+
+Järjestä taulukko hyödyn ja vaivan suhteen mukaan, älä pelkän hyödyn. Iso parannus, joka ei valmistu tänään, on huonompi kuin pieni joka valmistuu.
+
+Kysy sitten yksi kysymys: minkä näistä otetaan? Käyttäjä saa myös ehdottaa jotain listan ulkopuolelta. Hänen tuntemansa kipu voittaa raportin.
+
+Jos käyttäjä epäröi, suosittele helpointa voittoa ja perustele yhdellä lauseella.
+
 ## Vaihe 1: Asenne
 
-Tavoite: löytää oikea kohde. Kolme kysymystä, yksi kerrallaan.
+Kun kohde on valittu, tarkenna se. Kaksi kysymystä, yksi kerrallaan.
 
-**1. Mikä vei viime viikolla eniten aikaa tai ärsytti eniten?**
-Jos `tausta/prioriteetit.md`:ssä on merkintä viikon aikasyöpöstä, ehdota sitä ja kysy pitääkö se yhä paikkansa. Jos vastaus on ympäripyöreä, kysy, mitä käyttäjä teki eilen. Konkreettinen päivä tuottaa paremman vastauksen kuin abstrakti viikko.
-
-**2. Pilkotaan se osiin. Mitä siinä oikeasti tapahtuu vaihe vaiheelta?**
+**1. Pilkotaan se osiin. Mitä siinä oikeasti tapahtuu vaihe vaiheelta?**
 Kirjoita vaiheet näkyviin. Tässä paljastuu yleensä, että tehtävä on viisi tehtävää.
 
-**3. Käydään vaiheet läpi: missä määrin tekoäly voi hoitaa tämän?**
+**2. Käydään vaiheet läpi: missä määrin tekoäly voi hoitaa tämän?**
 Jokaisesta vaiheesta erikseen. Vastaus on liukuma, ei kyllä tai ei.
-
-Jos edellinen tarkistus nosti esiin selvän aukon, ehdota sitä kohteeksi. Käyttäjä saa silti valita toisin. Hänen tuntemansa kipu voittaa raportin.
 
 ## Vaihe 2: Askeleet
 
@@ -67,7 +82,7 @@ Tuotos on yleensä yksi näistä:
 
 ## Rajat
 
-- **Yksi asia per ajo.** Tämä on koko skillin idea. Jos käyttäjä haluaa kolme, valitse tärkein ja kirjaa kaksi muuta odottamaan.
+- **Yksi asia per ajo.** Tämä on koko skillin idea. Vaiheessa 0 näytetään monta vaihtoehtoa, mutta rakennetaan vain yksi. Jos käyttäjä haluaa kolme, tee tärkein ja kirjaa kaksi muuta odottamaan.
 - **Älä hyppää suoraan vaiheeseen 3.** Haastattelu ennen rakentamista on se osa, joka opettaa. Ilman sitä tämä on pelkkä koodipyyntö.
 - **Älä nosta itsenäisyystasoa ilman ajohistoriaa.** Taso 4 vaatii kuukauden tasolla 3.
 - **Älä rakenna sitä, mikä on jo olemassa.** Katso ensin, ratkaiseeko olemassa oleva komento tämän korjattuna.
