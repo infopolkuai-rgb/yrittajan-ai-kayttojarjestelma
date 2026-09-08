@@ -1,0 +1,23 @@
+# Salaisuudet. Näitä ei koskaan viedä gitiin.
+.env
+.env.local
+.secrets
+*.secret
+*-sa.json
+*service-account*.json
+client_secret*.json
+
+# Omat haastattelut ja tarkistusraportit ovat yksityisiä.
+haastattelut/*
+!haastattelut/.gitkeep
+tarkistukset/*
+!tarkistukset/.gitkeep
+
+# Roskaa
+.DS_Store
+Thumbs.db
+*.log
+*.bak
+__pycache__/
+node_modules/
+.claude/settings.local.json
