@@ -44,5 +44,6 @@ saa muokata ja käyttää myös kaupallisesti.
 - [x] Google Docsin jakoasetus on "kuka tahansa jolla on linkki voi katsoa"
 - [x] GitHub-repo on julkinen
 - [x] Zipin lataus ja purkaminen testattu
-- [ ] Kuvakaappaukset lisätty Google Dociin, tärkeimpänä se jossa kansio valitaan Claude Desktopin Code-näkymässä
+- [x] Kuva 1 (GitHubin Download ZIP) ja kuva 2 (purettu kansio) lisätty Google Dociin
+- [ ] Kuva 3: Claude Desktopin Code-näkymä ja kansion valinta. Ota Win+Shift+S ja liitä Dociin luvun 3 vaiheeseen 3
 - [ ] Luit oppaan itse kertaalleen läpi Google Docsissa
