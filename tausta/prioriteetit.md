@@ -1,5 +1,7 @@
 # Prioriteetit
 
+*Päivitetty: [PÄIVÄMÄÄRÄ]*
+
 *`/aloita` täyttää tämän kysymyksestä 3. Katso tätä viikoittain ja päivitä 90 päivän välein.*
 
 **Jakso:** [ALKUPÄIVÄ]-[LOPPUPÄIVÄ]

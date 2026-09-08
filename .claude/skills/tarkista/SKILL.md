@@ -41,10 +41,13 @@ Tulos on yksi näistä:
 | Tulos | Milloin |
 |---|---|
 | **Osuma** | Löytyi suoraan reittiä pitkin |
+| **Osittainen osuma** | Koe kysyy kahta asiaa ja vain toinen löytyi. Kerro kumpi puuttui |
 | **Haku pelasti** | Ei löytynyt reittiä pitkin mutta löytyi etsimällä. Tieto on olemassa, reitti puuttuu |
 | **Löytyi, ei pääsyä** | Tiedetään missä tieto on, mutta siihen ei ylletä. Koskee lähinnä koetta 5 |
 | **Ei löytynyt** | Tieto puuttuu kokonaan |
 | **Ei sovellu** | Kysymys ei koske tätä käyttäjää. Ei lasketa epäonnistumiseksi |
+
+Koe 2 päättyy ensimmäisessä ajossa lähes aina osittaiseen osumaan: prioriteetit löytyvät mutta tilanne on kirjaamatta, koska `/aloita` ei arvaa sitä. Se on odotettu tulos.
 
 "Ei sovellu" on olemassa kokeelle 3. Vasta käyttöön otetulla järjestelmällä ei ole aktiivisia projekteja, eikä yhden hengen yrittäjällä välttämättä koskaan ole projektikansiota. Kirjaa se sellaisenaan äläkä vähennä pisteitä.
 
@@ -97,12 +100,12 @@ Laske lisäpiste ensin, leikkaa summa sitten 25:een, ja vasta viimeisenä sovell
 
 | Pisteet | Tila |
 |---|---|
-| 0-6 | Vain keskustelua |
-| 7-13 | Mukana tulleet komennot käytössä |
+| 0-6 | Mukana tulleista komennoista on ajettu vain `/aloita` ja tämä tarkistus |
+| 7-13 | Myös `/syvenna`, `/linkita` tai `/kehita` on ajettu, ja niistä on jälki |
 | 14-20 | Vähintään yksi oma komento, jota on ajettu useammin kuin kerran |
 | 21-25 | Oma komento tuottaa valmiin tuotoksen, ja edellisestä ajosta on merkintä |
 
-Komento, jota ei ole ajettu, ei tuo pisteitä.
+Komento, jota ei ole ajettu, ei tuo pisteitä. Ensimmäinen ajo osuu bändiin 0-6, koska pelkkä asennus ja tarkistus eivät vielä ole taitoja.
 
 **Tahti (0-25).** Toimii ilman pyytämistä.
 
@@ -117,6 +120,8 @@ Komento, jota ei ole ajettu, ei tuo pisteitä.
 
 Syy: nopea kone väärällä tiedolla tekee vääriä asioita nopeammin. Katto on siksi kiinni perustassa eikä naapurikerroksessa.
 
+**Mihin kohtaan bändiä.** Aloita bändin alarajasta ja nouse siitä vain todisteella. Jokainen piste alarajan yläpuolella vaatii oman perustelunsa. Jos et osaa perustella nousua, jää alarajaan. Näin kaksi eri ajoa päätyy samaan lukuun samasta aineistosta.
+
 Näytä laskutoimitus. Kerro jokaisesta pisteestä, mihin todisteeseen se nojaa.
 
 ## Vaihe 3: kolme korjausta
@@ -130,7 +135,16 @@ Nimeä kolme parannusta tärkeysjärjestyksessä. Jokaisesta neljä riviä:
 
 Jos yksi kerros on selvästi muita heikompi, kaikki kolme korjausta saavat koskea sitä.
 
-Ehdota lopuksi valmis komento tärkeimmälle korjaukselle. Yleensä `/kehita` tai `/linkita`.
+Ehdota lopuksi valmis komento tärkeimmälle korjaukselle:
+
+| Heikoin kerros | Komento |
+|---|---|
+| Tieto | `/syvenna` sen aiheen nimellä, joka puuttuu |
+| Työkalut | `/kehita`. Yhteyden kokeilu ja tuloksen kirjaaminen on kelvollinen kehitysajon tuotos |
+| Taidot | `/kehita` |
+| Tahti | `/kehita` |
+
+Jos kyse on pelkästä puuttuvasta reitistä eikä puuttuvasta tiedosta, komento on `/linkita`.
 
 ## Vaihe 4: raportti
 
@@ -146,9 +160,15 @@ Raportin osat järjestyksessä:
 6. Kolme korjausta, kukin viitaten löydöksen tunnukseen
 7. Vertailu edelliseen raporttiin
 
-**Löydöstaulukko on se osa, johon vertailu nojaa.** Kokoa siihen kaikki puutteet, jotka havaitsit vaiheissa 1 ja 2, riippumatta siitä missä kohtaa raporttia ne mainitaan. Anna jokaiselle tunnus muotoa `L1`, `L2`, `L3` ja numeroi ne kerroksittain tässä järjestyksessä: Tieto, Työkalut, Taidot, Tahti.
+**Löydöstaulukko on se osa, johon vertailu nojaa.** Kokoa siihen kaikki puutteet, jotka havaitsit vaiheissa 1 ja 2, riippumatta siitä missä kohtaa raporttia ne mainitaan.
 
-Kerroksittainen numerointi on tarkoituksellinen. Se pitää tunnukset vakaina ajosta toiseen, vaikka raportin muu järjestys muuttuisi. Jos löydös on jo saanut tunnuksen aiemmassa raportissa, käytä sitä samaa äläkä numeroi uudelleen. Uudet löydökset saavat vapaana olevat numerot.
+Tunnusten antamisessa on kaksi sääntöä, ja ne pätevät eri ajoihin:
+
+**Ensimmäisessä ajossa** anna tunnukset kerroksittain tässä järjestyksessä: Tieto, Työkalut, Taidot, Tahti. Näin ensimmäinen taulukko on luettava.
+
+**Kaikissa myöhemmissä ajoissa** tunnus on pysyvä nimilappu eikä järjestysnumero. Jos löydös on jo saanut tunnuksen aiemmassa raportissa, käytä sitä samaa. Uusi löydös saa seuraavan vapaan numeron riippumatta siitä mihin kerrokseen se kuuluu.
+
+Toisesta ajosta lähtien numerot eivät siis ole kerrosjärjestyksessä, ja se on tarkoitus. Taulukko lajitellaan kerroksen mukaan, ei tunnuksen. Vakaa tunnus on tärkeämpi kuin siisti numerointi, koska koko vertailu nojaa siihen.
 
 **Vertailu edelliseen.** Lue viimeisin raportti kansiosta. Merkitse jokainen vanha löydös: korjattu, yhä auki, palasi, ei tarkistettu, tai ei enää ajankohtainen.
 

@@ -1,6 +1,8 @@
 # Yritys
 
-*`/aloita` täyttää tämän kysymyksestä 1. Päivitä käsin milloin vain.*
+*Päivitetty: [PÄIVÄMÄÄRÄ]*
+
+*`/aloita` täyttää tämän kysymyksestä 1. Päivitä käsin milloin vain ja vaihda päiväys samalla.*
 
 ## Mitä teemme
 

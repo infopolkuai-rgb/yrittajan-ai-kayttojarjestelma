@@ -1,5 +1,7 @@
 # Ääni
 
+*Päivitetty: [PÄIVÄMÄÄRÄ]*
+
 *`/aloita` täyttää tämän kysymyksen 2 näytteistä. Tämä ei ole tyyliopas vaan näytekokoelma. Assistentti matkii näytteitä, ei sääntöjä.*
 
 ## Näyte 1

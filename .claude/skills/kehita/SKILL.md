@@ -49,6 +49,7 @@ Rakenna pieninä paloina. Lisää tarkistus jokaisen vaiheen jälkeen. Kirjoita 
 Varmista, että käyttäjä pystyy pysäyttämään sen yhdellä liikkeellä. Kerro myös miten.
 
 Tuotos on yleensä yksi näistä:
+- **Kokeiltu yhteys.** Otetaan jokin järjestelmä ulottuville, kokeillaan se oikealla kysymyksellä ja kirjataan tulos päivämäärineen `yhteydet.md`:hen. Tämä on tavallisin tuotos silloin, kun Työkalut-kerros on heikoin.
 - **Uusi komento** kansioon `.claude/skills/[nimi]/SKILL.md`.
 - **Korjaus olemassa olevaan.** Tämä on täysin kelvollinen tulos. Toimiva vanha komento on parempi kuin uusi rikkinäinen.
 - **Uusi tausta- tai ohjetiedosto** ja reitti siihen. Aja `/linkita`.

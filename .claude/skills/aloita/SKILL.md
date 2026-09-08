@@ -63,11 +63,19 @@ Se toistuva homma, josta käyttäjä ei pidä, ja se paikka, josta hän katsoo, 
 
 Kun kaikki seitsemän on vastattu, tee nämä tässä järjestyksessä.
 
+**Päivää jokainen tiedosto, jonka kirjoitat.** Tiedostojen alussa on kenttä `*Päivitetty: [PÄIVÄMÄÄRÄ]*`. Korvaa siihen tämän päivän päivämäärä muodossa VVVV-KK-PP. Tämä koskee kaikkia `tausta/`-tiedostoja ja `yhteydet.md`:tä.
+
+Päiväys ei ole koriste. `/tarkista` pisteyttää tiedon tuoreuden, ja päiväämätön tiedosto putoaa alimpaan bändiin riippumatta siitä kuinka hyvä sen sisältö on.
+
+**Korvaa kaikki hakasulkeissa olevat paikanvaraajat jokaisessa tiedostossa, jonka täytät.** Niitä on muissakin kuin CLAUDE.md:ssä, esimerkiksi `[ALKUPÄIVÄ]`, `[LOPPUPÄIVÄ]` ja `[Tavoite]`. Kun olet valmis, tarkista ettei täyttämissäsi tiedostoissa ole enää yhtään hakasuljetta.
+
 **1. `haastattelu.md`.** Tämä on jo täytetty haastattelun aikana. Tarkista, että kaikki seitsemän vastausta ovat tallessa oikeiden kysymysten alla ja sanatarkasti. Tämä on lähde, josta kaikki muu johdetaan. Älä siisti käyttäjän sanamuotoja.
 
-**2. `tausta/yritys.md`.** Kysymyksestä 1. Täytä mitä teemme, kenelle, mitä myymme ja asiakkaat nyt.
+**2. `tausta/yritys.md`.** Kysymyksestä 1. Täytä mitä teemme ja kenelle.
 
-Kaksi kohtaa jää tyhjäksi, koska haastattelu ei niitä kysy: hintasarake ja "Mitä emme tee". Jätä ne tyhjiksi äläkä arvaa niihin mitään. Mainitse lopetuksessa, että ne kannattaa täyttää käsin kun ehtii.
+Kolme kohtaa jää yleensä tyhjäksi, koska haastattelu ei niitä kysy: hintasarake, "Mitä emme tee" ja "Asiakkaat nyt". Kysymys 1 kysyy millainen paras asiakas on, ei ketä asiakkaat ovat nimeltä. Täytä "Asiakkaat nyt" vain jos käyttäjä nimesi asiakkaita itse.
+
+Jätä tyhjät kohdat tyhjiksi äläkä arvaa niihin mitään. Luettele ne lopetuksessa ja kerro, että ne kannattaa täyttää käsin kun ehtii. Asiakaslista on niistä tärkein, koska ilman sitä `/tarkista` ei löydä yhtään projektia.
 
 **3. `tausta/prioriteetit.md`.** Kysymyksistä 3, 4 ja 7. Kolme tavoitetta mittareineen, rahan laskeutumispaikka ja viikon aikasyöppö tunteineen.
 
