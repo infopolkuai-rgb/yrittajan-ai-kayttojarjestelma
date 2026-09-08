@@ -14,7 +14,7 @@ yrityksen, niin ettei sun tarvitse selittää sitä joka kerta uudestaan.
 Asennukseen ja alkuhaastatteluun menee tunti eikä koodaamista tarvita.
 
 Ohje: [Google Docs -linkki]
-Paketti: [github-linkki]
+Paketti: https://github.com/infopolkuai-rgb/yrittajan-ai-kayttojarjestelma
 
 Aloita ohjeesta, siinä on jokainen askel järjestyksessä. Laita viestiä jos
 jokin tökkää tai jos saat sillä jotain aikaan.
@@ -33,7 +33,7 @@ Laitoin sulle DM:ään. Ohje ja paketti, molemmat ilmaisia.
 ## Jos joku kysyy julkisesti mistä sen saa
 
 ```
-Tässä: [github-linkki]. Ohje on paketin docs-kansiossa. Ilmainen ja MIT,
+Tässä: https://github.com/infopolkuai-rgb/yrittajan-ai-kayttojarjestelma Ohje on paketin docs-kansiossa. Ilmainen ja MIT,
 saa muokata ja käyttää myös kaupallisesti.
 ```
 

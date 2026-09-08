@@ -64,7 +64,9 @@ Ohjelmointitaitoa ei tarvita. Komentoriviä ei tarvita.
 
 ### Vaihe 1. Lataa kansio
 
-Mene siihen GitHub-osoitteeseen, jonka sait linkkinä.
+Mene tähän osoitteeseen:
+
+https://github.com/infopolkuai-rgb/yrittajan-ai-kayttojarjestelma
 
 GitHub on paikka, jossa tiedostoja jaetaan. Sivu näyttää tekniseltä ja siinä on paljon englanninkielisiä välilehtiä. Älä välitä niistä. Sä tarvitset yhden painikkeen.
 
@@ -74,7 +76,7 @@ Etsi sivun oikeasta yläreunasta **vihreä Code-painike**. Klikkaa sitä. Aukeaa
 
 Windowsissa: oikea klikkaus tiedoston päällä, valitse "Pura kaikki". Macissa: tuplaklikkaus riittää.
 
-**Katso mitä sisälle jäi.** Purkaminen tekee usein kansion, jonka sisällä on toinen samanniminen kansio. Avaa kansiota niin kauan, että näet suoraan edessäsi tiedostot `README.md` ja `CLAUDE.md`. **Se kansio, jossa nuo kaksi tiedostoa ovat, on oikea kansio.** Sitä sä tarvitset seuraavassa vaiheessa.
+**Katso mitä sisälle jäi.** Purkaminen tekee tässä tapauksessa lähes varmasti kansion, jonka sisällä on toinen samanniminen kansio. Molemmat ovat nimeltään `yrittajan-ai-kayttojarjestelma-main`. Avaa kansiota niin kauan, että näet suoraan edessäsi tiedostot `README.md` ja `CLAUDE.md`. **Se kansio, jossa nuo kaksi tiedostoa ovat, on oikea kansio.** Sitä sä tarvitset seuraavassa vaiheessa.
 
 Siirrä se paikkaan, jonka muistat. Tiedostot-kansio tai työpöytä käy hyvin.
 

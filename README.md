@@ -20,7 +20,7 @@ Tiedostot pysyvät sinun koneellasi. Voit lukea ja muokata jokaista niistä tava
 
 ## Pikastartti
 
-1. Lataa tämä kansio koneellesi. Vihreä **Code**-painike ylhäällä, sitten **Download ZIP**. Pura zip.
+1. Lataa tämä kansio koneellesi. Vihreä **Code**-painike ylhäällä, sitten **Download ZIP**. Pura zip. Sisällä on kaksi sisäkkäistä samannimistä kansiota, tarvitset sisemmän.
 2. Avaa Claude-työpöytäsovellus ja valitse tämä kansio.
 3. Kirjoita `/aloita` ja vastaa seitsemään kysymykseen.
 4. Kysy lopuksi: *"Mihin mun kannattaa keskittyä tällä viikolla?"*
