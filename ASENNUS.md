@@ -30,7 +30,14 @@ Jos kansiossa on mitä tahansa muuta, kysy käyttäjältä ennen kuin jatkat. Ä
 
 Valitse lohko komentotulkin mukaan, ei käyttöjärjestelmän. **Jos käytössäsi on bash, myös Windowsissa, käytä bash-lohkoja. Jos käytössäsi on vain PowerShell, käytä PowerShell-lohkoja.**
 
-Jokaisessa lohkossa on kaksi vaihtoehtoa. **Kokeile ensin vaihtoehtoa A.** Siirry vaihtoehtoon B, jos git puuttuu tai jos clone epäonnistuu mistä tahansa syystä. Älä sekoita vaihtoehtoja keskenään, koska ne tuottavat eri kansiorakenteen.
+Jokaisessa lohkossa on kaksi vaihtoehtoa. **Kokeile ensin vaihtoehtoa A.**
+
+Vaihtoehto A on epäonnistunut, jos **mikä tahansa** sen neljästä rivistä kaatuu. Pelkkä clonen onnistuminen ei riitä. Kun A epäonnistuu, tee kaksi asiaa tässä järjestyksessä:
+
+1. **Siivoa ensin.** Poista `.tmp-aios` kokonaan. Se sisältää `.git`-kansion, ja jos jätät sen paikalleen, seuraava vaihtoehto siirtää sen käyttäjän kansioon. Juuri sitä lopputulosta tämä ohje yrittää estää.
+2. Aja vasta sitten vaihtoehto B **samasta lohkosta**.
+
+Älä sekoita bash- ja PowerShell-lohkoja keskenään, äläkä aja vaihtoehtoja A ja B päällekkäin. Ne tuottavat eri kansiorakenteen.
 
 Aja komennot yksi rivi kerrallaan ja katso jokaisen tulos. Jos jokin rivi epäonnistuu, älä jatka seuraavaan.
 
@@ -74,6 +81,16 @@ Remove-Item ".tmp-aios", "aios.zip" -Recurse -Force
 ```
 
 Ensimmäinen rivi asettaa TLS 1.2:n. Ilman sitä lataus kaatuu vanhemmassa Windowsissa virheeseen, joka puhuu SSL-kanavasta, eikä käyttäjä osaa tulkita sitä.
+
+### Siivouskomento kesken jääneen yrityksen jälkeen
+
+```bash
+rm -rf .tmp-aios aios.zip
+```
+
+```powershell
+Remove-Item ".tmp-aios", "aios.zip" -Recurse -Force -ErrorAction SilentlyContinue
+```
 
 ### Kaksi asiaa molemmista vaihtoehdoista
 
