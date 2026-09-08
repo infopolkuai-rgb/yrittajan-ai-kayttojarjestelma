@@ -23,7 +23,7 @@ Kolme tapaa pitää asenne kunnossa:
 
 **Kokeile kun et tiedä.** Jos et osaa sanoa, hoituuko jokin tekoälyllä, kokeilu kestää viisi minuuttia ja arvailu kuukauden. Kokeile.
 
-**Odota alkukankeutta.** Ensimmäisellä viikolla olet hitaampi kuin ennen. Se ei ole merkki siitä, että tämä ei toimi. Se on merkki siitä, että opettelet. Kankeus menee ohi noin kahdessa viikossa, ja siihen asti tuntuu siltä, että vanha tapa oli nopeampi.
+**Odota alkukankeutta.** Ensimmäisellä viikolla olet hitaampi kuin ennen. Se ei ole merkki siitä, että tämä ei toimi. Se on merkki siitä, että opettelet. Kankeus menee ohi noin kahdessa viikossa ja siihen asti tuntuu siltä, että vanha tapa oli nopeampi.
 
 ### Askeleet
 

@@ -12,7 +12,7 @@ Tämä skilli lisää yhden rivin `CLAUDE.md`-tiedostoon ja varmistaa että se t
 ## Kulku
 
 **1. Selvitä kohde ja käyttötarkoitus.**
-Tarvitset kaksi asiaa. Polun tai osoitteen, ja yhden lauseen siitä, milloin tätä käytetään.
+Tarvitset kaksi asiaa. Polun tai osoitteen ja yhden lauseen siitä, milloin tätä käytetään.
 
 Jos käyttäjä antoi vain polun, kysy käyttötarkoitus. Jos hän antoi vain kuvauksen, kysy polku. Älä arvaa kumpaakaan.
 

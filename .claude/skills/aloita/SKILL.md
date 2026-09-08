@@ -20,13 +20,13 @@ Kerro käyttäjälle kolme asiaa ennen ensimmäistä kysymystä:
 2. Kysymys 2 vaatii liittämään omaa tekstiä. Se kannattaa etsiä valmiiksi.
 3. Vastaukset menevät tiedostoihin tässä kansiossa, ei mihinkään pilveen.
 
-Kysy samassa yhteydessä, miksi käyttäjä haluaa kutsua sinua. Tämä ei ole yksi seitsemästä kysymyksestä vaan nimen antaminen, ja se tehdään ennen niitä. Tallenna vastaus `haastattelu.md`:n kohtaan "Assistentin nimi". Jos käyttäjä ei keksi nimeä, ehdota kolmea ja anna hänen valita.
+Kysy samassa yhteydessä, miksi käyttäjä haluaa kutsua sinua. Tämä ei ole yksi seitsemästä kysymyksestä vaan nimen antaminen ja se tehdään ennen niitä. Tallenna vastaus `haastattelu.md`:n kohtaan "Assistentin nimi". Jos käyttäjä ei keksi nimeä, ehdota kolmea ja anna hänen valita.
 
 ## Kysymykset
 
 Yksi kysymys kerrallaan. Odota vastaus ennen seuraavaa. Älä näytä koko listaa etukäteen.
 
-**Tallenna jokainen vastaus heti `haastattelu.md`-tiedostoon, ennen kuin kysyt seuraavan.** Älä odota loppuun. Haastattelu kestää puoli tuntia, ja siinä ajassa ehtii tulla käyttöraja vastaan, puhelu väliin tai koneen sulkeminen. Jos vastaukset ovat levyllä, käyttäjä kirjoittaa `/aloita` uudelleen ja homma jatkuu. Jos ne ovat vain keskustelussa, kaikki alkaa alusta ja käyttäjä lopettaa.
+**Tallenna jokainen vastaus heti `haastattelu.md`-tiedostoon, ennen kuin kysyt seuraavan.** Älä odota loppuun. Haastattelu kestää puoli tuntia ja siinä ajassa ehtii tulla käyttöraja vastaan, puhelu väliin tai koneen sulkeminen. Jos vastaukset ovat levyllä, käyttäjä kirjoittaa `/aloita` uudelleen ja homma jatkuu. Jos ne ovat vain keskustelussa, kaikki alkaa alusta ja käyttäjä lopettaa.
 
 Muut tiedostot kirjoitetaan vasta lopussa, koska ne johdetaan useammasta vastauksesta.
 
@@ -43,7 +43,7 @@ Jos käyttäjä sanoo, ettei löydä mitään, ohjaa katsomaan lähetetyt sähk�
 **3. Kolme tärkeintä asiaa seuraavalle 90 päivälle.**
 Vaadi jokaiseen joko luku tai päivämäärä. Jos vastaus on "kasvattaa myyntiä", kysy paljonko ja mihin mennessä. Tämä on ainoa kohta, jossa painostat.
 
-Kysy kerran ja anna yksi esimerkki. Jos käyttäjä ei silti anna mittaria, älä jää jankkaamaan. Kirjaa tavoite sellaisenaan ja merkitse sen perään `mittari: sopimatta`. Se on rehellinen tulos, ja `/tarkista` nostaa sen esiin viikon päästä. Keksitty mittari olisi pahempi kuin puuttuva, koska se näyttää valmiilta.
+Kysy kerran ja anna yksi esimerkki. Jos käyttäjä ei silti anna mittaria, älä jää jankkaamaan. Kirjaa tavoite sellaisenaan ja merkitse sen perään `mittari: sopimatta`. Se on rehellinen tulos ja `/tarkista` nostaa sen esiin viikon päästä. Keksitty mittari olisi pahempi kuin puuttuva, koska se näyttää valmiilta.
 
 **4. Mihin raha oikeasti laskeutuu ja missä sitä seurataan.**
 Mitkä kaupat tuovat rahan ja missä tiedostossa tai järjestelmässä sitä katsotaan. Jos vastaus on "päässä", kirjaa se sellaisenaan.
@@ -65,7 +65,7 @@ Kun kaikki seitsemän on vastattu, tee nämä tässä järjestyksessä.
 
 **Päivää jokainen tiedosto, jonka kirjoitat.** Tiedostojen alussa on kenttä `*Päivitetty: [PÄIVÄMÄÄRÄ]*`. Korvaa siihen tämän päivän päivämäärä muodossa VVVV-KK-PP. Tämä koskee kaikkia `tausta/`-tiedostoja ja `yhteydet.md`:tä.
 
-Päiväys ei ole koriste. `/tarkista` pisteyttää tiedon tuoreuden, ja päiväämätön tiedosto putoaa alimpaan bändiin riippumatta siitä kuinka hyvä sen sisältö on.
+Päiväys ei ole koriste. `/tarkista` pisteyttää tiedon tuoreuden ja päiväämätön tiedosto putoaa alimpaan bändiin riippumatta siitä kuinka hyvä sen sisältö on.
 
 **Korvaa kaikki hakasulkeissa olevat paikanvaraajat jokaisessa tiedostossa, jonka täytät.** Niitä on muissakin kuin CLAUDE.md:ssä, esimerkiksi `[ALKUPÄIVÄ]`, `[LOPPUPÄIVÄ]` ja `[Tavoite]`. Kun olet valmis, tarkista ettei täyttämissäsi tiedostoissa ole enää yhtään hakasuljetta.
 

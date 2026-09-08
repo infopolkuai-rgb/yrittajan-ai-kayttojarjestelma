@@ -12,7 +12,7 @@
 2.
 3.
 
-*Jos jollain tavoitteella ei ole mittaria, merkitse `mittari: sopimatta`. Se on löydös eikä virhe, ja `/tarkista` nostaa sen esiin.*
+*Jos jollain tavoitteella ei ole mittaria, merkitse `mittari: sopimatta`. Se on löydös eikä virhe ja `/tarkista` nostaa sen esiin.*
 
 ## Mikä ei ole prioriteetti juuri nyt
 

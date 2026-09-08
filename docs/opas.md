@@ -163,7 +163,7 @@ Kolme kohtaa, joissa kannattaa hidastaa:
 
 Syy: jos sä kirjoitat näytteen tähän keskusteluun, sä kirjoitat sen huolellisemmin kuin normaalisti. Silloin assistentti oppii sellaisen tyylin, jolla sä et oikeasti kirjoita, ja jokainen sen luonnos kuulostaa vieraalta.
 
-**Kysymys 3 vaatii numeron.** "Kasvattaa myyntiä" ei kelpaa. "Kolme uutta asiakasta lokakuun loppuun mennessä" kelpaa. Assistentti painostaa tässä kohtaa, ja niin sen kuuluukin tehdä. Ilman lukua se ei voi myöhemmin kertoa, meneekö hyvin.
+**Kysymys 3 vaatii numeron.** "Kasvattaa myyntiä" ei kelpaa. "Kolme uutta asiakasta lokakuun loppuun mennessä" kelpaa. Assistentti painostaa tässä kohtaa ja niin sen kuuluukin tehdä. Ilman lukua se ei voi myöhemmin kertoa, meneekö hyvin.
 
 **Kysymys 6 haluaa totuuden.** Jos tiedostot ovat kolmessa paikassa ja osa työpöydällä, sano se. Tavoitetilan kertominen tässä kohtaa kostautuu heti.
 

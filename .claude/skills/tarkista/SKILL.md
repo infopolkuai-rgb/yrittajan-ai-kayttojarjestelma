@@ -57,7 +57,7 @@ Merkitse myös vanhentunut tieto. Kuukauden vanha "tilanne" on löydös, vaikka 
 
 Neljä kerrosta, kukin 0-25. Kerrokset ja niiden merkitys: `ohjeet/tyoskentelymalli.md`.
 
-Ennen pisteitä erottele kaksi asiaa, jotka näyttävät samalta mutta eivät ole: **puuttuuko tieto kokonaan vai onko tiedosto olemassa mutta tyhjä.** Tyhjä pohja on eri löydös kuin puuttuva kansio, ja korjaus on eri. Merkitse kumpi on kyseessä.
+Ennen pisteitä erottele kaksi asiaa, jotka näyttävät samalta mutta eivät ole: **puuttuuko tieto kokonaan vai onko tiedosto olemassa mutta tyhjä.** Tyhjä pohja on eri löydös kuin puuttuva kansio ja korjaus on eri. Merkitse kumpi on kyseessä.
 
 **Tieto (0-25).** Tuntee yrityksen ja tilanteen. Pisteet muodostuvat kahdesta puolikkaasta: kattavuudesta ja tuoreudesta.
 
@@ -94,16 +94,16 @@ Kirjattu mutta kokeilematon yhteys on nolla. Tarkista `yhteydet.md`:n päivämä
 
 Lisäpiste, enintään 3, jos puuttuvat yhteydet on tunnistettu ja lueteltu. Tämä lisätään mihin tahansa bändiin, myös nollan päälle. Käyttäjä, joka tietää tarkalleen mitä puuttuu, on paremmassa asemassa kuin se joka ei tiedä.
 
-Laske lisäpiste ensin, leikkaa summa sitten 25:een, ja vasta viimeisenä sovella kattosääntöä. Kerros ei voi missään tilanteessa ylittää 25:tä.
+Laske lisäpiste ensin, leikkaa summa sitten 25:een ja vasta viimeisenä sovella kattosääntöä. Kerros ei voi missään tilanteessa ylittää 25:tä.
 
 **Taidot (0-25).** Osaa tehdä työn vaiheet.
 
 | Pisteet | Tila |
 |---|---|
 | 0-6 | Mukana tulleista komennoista on ajettu vain `/aloita` ja tämä tarkistus |
-| 7-13 | Myös `/syvenna`, `/linkita` tai `/kehita` on ajettu, ja niistä on jälki |
+| 7-13 | Myös `/syvenna`, `/linkita` tai `/kehita` on ajettu ja niistä on jälki |
 | 14-20 | Vähintään yksi oma komento, jota on ajettu useammin kuin kerran |
-| 21-25 | Oma komento tuottaa valmiin tuotoksen, ja edellisestä ajosta on merkintä |
+| 21-25 | Oma komento tuottaa valmiin tuotoksen ja edellisestä ajosta on merkintä |
 
 Komento, jota ei ole ajettu, ei tuo pisteitä. Ensimmäinen ajo osuu bändiin 0-6, koska pelkkä asennus ja tarkistus eivät vielä ole taitoja.
 
@@ -162,13 +162,13 @@ Raportin osat järjestyksessä:
 
 **Löydöstaulukko on se osa, johon vertailu nojaa.** Kokoa siihen kaikki puutteet, jotka havaitsit vaiheissa 1 ja 2, riippumatta siitä missä kohtaa raporttia ne mainitaan.
 
-Tunnusten antamisessa on kaksi sääntöä, ja ne pätevät eri ajoihin:
+Tunnusten antamisessa on kaksi sääntöä ja ne pätevät eri ajoihin:
 
 **Ensimmäisessä ajossa** anna tunnukset kerroksittain tässä järjestyksessä: Tieto, Työkalut, Taidot, Tahti. Näin ensimmäinen taulukko on luettava.
 
 **Kaikissa myöhemmissä ajoissa** tunnus on pysyvä nimilappu eikä järjestysnumero. Jos löydös on jo saanut tunnuksen aiemmassa raportissa, käytä sitä samaa. Uusi löydös saa seuraavan vapaan numeron riippumatta siitä mihin kerrokseen se kuuluu.
 
-Toisesta ajosta lähtien numerot eivät siis ole kerrosjärjestyksessä, ja se on tarkoitus. Taulukko lajitellaan kerroksen mukaan, ei tunnuksen. Vakaa tunnus on tärkeämpi kuin siisti numerointi, koska koko vertailu nojaa siihen.
+Toisesta ajosta lähtien numerot eivät siis ole kerrosjärjestyksessä ja se on tarkoitus. Taulukko lajitellaan kerroksen mukaan, ei tunnuksen. Vakaa tunnus on tärkeämpi kuin siisti numerointi, koska koko vertailu nojaa siihen.
 
 **Vertailu edelliseen.** Lue viimeisin raportti kansiosta. Merkitse jokainen vanha löydös: korjattu, yhä auki, palasi, ei tarkistettu, tai ei enää ajankohtainen.
 

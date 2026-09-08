@@ -1,6 +1,6 @@
 # Kuvakaappaukset (Ilmarille)
 
-Opas toimii ilman kuvia. Nämä kolme kuvaa tekevät siitä helpomman, ja ne kannattaa lisätä Google Docs -versioon. Kohta on merkitty sillä lauseella, jonka jälkeen kuva menee.
+Opas toimii ilman kuvia. Nämä kolme kuvaa tekevät siitä helpomman ja ne kannattaa lisätä Google Docs -versioon. Kohta on merkitty sillä lauseella, jonka jälkeen kuva menee.
 
 | # | Mistä | Mihin oppaassa |
 |---|---|---|
