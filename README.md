@@ -1,10 +1,66 @@
 # Yrittäjän AI-käyttöjärjestelmä
 
-Tyhjä pohja, joka muuttaa Clauden yleisavustajasta sinun yrityksesi assistentiksi. Asennus vie noin vartin ja alkuhaastattelu puoli tuntia. Ei vaadi ohjelmointitaitoa.
+Tyhjä pohja, joka muuttaa Claude Coden yleisavustajasta sinun yrityksesi assistentiksi.
 
 Kun tämä on käytössä, sinun ei tarvitse selittää joka keskustelussa mitä yrityksesi tekee, kenelle myyt tai millä tyylillä kirjoitat. Assistentti tietää sen, koska se lukee ne tästä kansiosta joka kerta.
 
-**Aloita tästä: [docs/opas.md](docs/opas.md).** Se on koko ohje alusta loppuun.
+## Asennus
+
+Kolme askelta. Et lataa mitään etkä pura mitään, assistentti kasaa kansion puolestasi.
+
+1. Luo koneellesi uusi tyhjä kansio, vaikka yrityksesi nimellä.
+2. Avaa se Claude Codessa.
+3. Liitä tämä viesti:
+
+```
+Asenna tähän kansioon Yrittäjän AI-käyttöjärjestelmä.
+Ohjeet ovat repon README-tiedostossa:
+https://github.com/infopolkuai-rgb/yrittajan-ai-kayttojarjestelma
+```
+
+Kun kansio on kasassa, avaa uusi keskustelu ja kirjoita `/aloita`.
+
+Koko ohje ja se mitä asennuksen jälkeen tapahtuu: [docs/opas.md](docs/opas.md).
+
+## Ohjeet tekoälylle
+
+*Tämä osio on assistentille. Ihminen voi hypätä sen yli.*
+
+Sinua on pyydetty asentamaan tämä paketti käyttäjän kansioon. Toimi näin.
+
+**1. Varmista kohde.** Olet käyttäjän omassa kansiossa. Jos kansiossa on jo muuta sisältöä, kysy ennen kuin jatkat. Älä koskaan asenna tätä kansioon, jossa on käyttäjän muita töitä.
+
+**2. Nouda paketti.** Kokeile ensin gitiä. Jos sitä ei ole, lataa arkisto ja pura se. Molemmat toimivat, käytä sitä joka onnistuu.
+
+```bash
+git clone --depth 1 https://github.com/infopolkuai-rgb/yrittajan-ai-kayttojarjestelma.git .tmp-aios
+```
+
+Jos git puuttuu, Windowsissa:
+
+```powershell
+Invoke-WebRequest -Uri "https://github.com/infopolkuai-rgb/yrittajan-ai-kayttojarjestelma/archive/refs/heads/main.zip" -OutFile "aios.zip"
+Expand-Archive -Path "aios.zip" -DestinationPath ".tmp-aios" -Force
+```
+
+Macissa ja Linuxissa:
+
+```bash
+curl -L -o aios.zip https://github.com/infopolkuai-rgb/yrittajan-ai-kayttojarjestelma/archive/refs/heads/main.zip && unzip -q aios.zip -d .tmp-aios
+```
+
+**3. Siirrä sisältö paikalleen.** Arkiston sisällä on yksi kansio nimeltä `yrittajan-ai-kayttojarjestelma-main`. Siirrä **sen sisältö**, ei kansiota itseään, käyttäjän kansion juureen. Muista piilotiedostot: `.claude/` ja `.gitignore` ovat pakollisia, ilman niitä komennot eivät toimi.
+
+**4. Siivoa.** Poista `.tmp-aios`, `aios.zip` ja mahdollinen `.git`-kansio. Käyttäjä ei tarvitse tämän repon historiaa.
+
+**5. Tarkista.** Kansion juuressa pitää olla `CLAUDE.md`, `README.md`, `haastattelu.md`, `yhteydet.md`, kansiot `tausta/`, `ohjeet/`, `paatokset/`, `arkisto/`, `haastattelut/`, `tarkistukset/`, `docs/` sekä `.claude/skills/`, jossa on viisi alikansiota. Jos jokin puuttuu, kerro se äläkä väitä asennusta valmiiksi.
+
+**6. Kerro käyttäjälle mitä seuraavaksi.** Sano kolme asiaa, lyhyesti:
+- Kansio on kasassa.
+- Hänen pitää avata **uusi keskustelu**, jotta viisi komentoa tulevat käyttöön.
+- Uudessa keskustelussa hän kirjoittaa `/aloita`, ja siihen kannattaa varata puoli tuntia sekä kaksi omaa kirjoittamaansa tekstiä.
+
+Älä aja `/aloita` puolesta äläkä täytä pohjia arvaamalla. Asennus päättyy tähän.
 
 ## Mitä tämä on
 
@@ -14,18 +70,10 @@ Tiedostot pysyvät sinun koneellasi. Voit lukea ja muokata jokaista niistä tava
 
 ## Mitä tarvitset
 
-- Claude-tilaus
-- Claude-työpöytäsovellus (Windows tai Mac)
-- Tunti aikaa ja kaksi omaa tekstiä, jotka olet itse kirjoittanut
+- Claude Pro -tilaus, 20 dollaria kuussa. Se sisältää Claude Coden.
+- Tunti aikaa ja kaksi omaa tekstiä, jotka olet itse kirjoittanut.
 
-## Pikastartti
-
-1. Lataa tämä kansio koneellesi. Vihreä **Code**-painike ylhäällä, sitten **Download ZIP**. Pura zip. Sisällä on kaksi sisäkkäistä samannimistä kansiota, tarvitset sisemmän.
-2. Avaa Claude-työpöytäsovellus ja valitse tämä kansio.
-3. Kirjoita `/aloita` ja vastaa seitsemään kysymykseen.
-4. Kysy lopuksi: *"Mihin mun kannattaa keskittyä tällä viikolla?"*
-
-Jos jokin näistä askeleista tökkää, [oppaassa](docs/opas.md) on jokainen kohta kuvien kanssa.
+Ohjelmointitaitoa ei tarvita.
 
 ## Viisi komentoa
 
