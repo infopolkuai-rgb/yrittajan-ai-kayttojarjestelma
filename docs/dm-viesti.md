@@ -11,7 +11,7 @@ Moro [etunimi], kiitos kommentista!
 
 Tässä se paketti. Se on tyhjä pohja, joka opettaa Clauden tuntemaan sun
 yrityksen, niin ettei sun tarvitse selittää sitä joka kerta uudestaan.
-Asennus vie vartin eikä vaadi koodaamista.
+Asennukseen ja alkuhaastatteluun menee tunti eikä koodaamista tarvita.
 
 Ohje: [Google Docs -linkki]
 Paketti: [github-linkki]

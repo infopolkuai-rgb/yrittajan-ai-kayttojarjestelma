@@ -1,6 +1,6 @@
 # Yrittäjän AI-käyttöjärjestelmä
 
-Tyhjä pohja, joka muuttaa Clauden yleisavustajasta sinun yrityksesi assistentiksi. Asennus vie noin viisitoista minuuttia. Ei vaadi ohjelmointitaitoa.
+Tyhjä pohja, joka muuttaa Clauden yleisavustajasta sinun yrityksesi assistentiksi. Asennus vie noin vartin ja alkuhaastattelu puoli tuntia. Ei vaadi ohjelmointitaitoa.
 
 Kun tämä on käytössä, sinun ei tarvitse selittää joka keskustelussa mitä yrityksesi tekee, kenelle myyt tai millä tyylillä kirjoitat. Assistentti tietää sen, koska se lukee ne tästä kansiosta joka kerta.
 
@@ -16,7 +16,7 @@ Tiedostot pysyvät sinun koneellasi. Voit lukea ja muokata jokaista niistä tava
 
 - Claude-tilaus
 - Claude-työpöytäsovellus (Windows tai Mac)
-- Vartti aikaa ja kaksi omaa tekstiä, jotka olet itse kirjoittanut
+- Tunti aikaa ja kaksi omaa tekstiä, jotka olet itse kirjoittanut
 
 ## Pikastartti
 

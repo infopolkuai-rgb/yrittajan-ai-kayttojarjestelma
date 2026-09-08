@@ -24,6 +24,16 @@ Sen lisäksi mukana tulee viisi valmista komentoa. Komento tarkoittaa tässä sa
 
 Neljä kerrosta ja niiden takana oleva ajattelutapa on avattu tiedostossa `ohjeet/tyoskentelymalli.md`. Sitä ei tarvitse lukea nyt.
 
+**Ne viisi komentoa.** Näihin viitataan myöhemmin luku kerrallaan, mutta tässä ne ovat yhdessä.
+
+| Komento | Mitä tekee | Milloin |
+|---|---|---|
+| `/aloita` | Haastattelee sinut ja täyttää pohjat | Ensimmäisenä päivänä |
+| `/syvenna` | Purkaa yhden asian päästäsi tiedostoon | Aina kun tarve |
+| `/linkita` | Lisää uuden kansion tai lähteen löydettäväksi | Kun otat jotain uutta käyttöön |
+| `/tarkista` | Testaa toimiiko järjestelmä ja antaa pisteet | Päivänä 7, sitten viikoittain |
+| `/kehita` | Vie yhden parannuksen maaliin | Päivänä 14, sitten viikoittain |
+
 ---
 
 ## 2. Mitä sä tarvitset
@@ -76,9 +86,13 @@ Kansion saa nimetä uudelleen milloin vain, mikään ei mene siitä rikki. Sisä
 
 Avaa Claude-työpöytäsovellus ja kirjaudu sisään.
 
-Etsi **Code**-välilehti. Valitse sieltä se kansio, jonka löysit vaiheessa 2.
+Sovelluksen päänavigaatiossa on **Code**-niminen kohta. Se on se osa Clauden sovellusta, joka osaa lukea koneesi kansioita. Sä et siis asenna toista ohjelmaa, vaan siirryt saman sovelluksen toiseen näkymään.
+
+Avaa Code ja etsi painike, jolla lisätään kansio tai projekti. Sen teksti voi olla englanniksi, esimerkiksi "Open folder" tai "Add project". Klikkaus avaa koneesi tavallisen kansionvalintaikkunan, sen saman jonka näet kun tallennat tiedostoa. Etsi sieltä se kansio, jonka löysit vaiheessa 2, ja valitse se.
 
 Claude kysyy tässä kohtaa todennäköisesti lupaa lukea kansion tiedostoja tai tehdä niihin muutoksia. Vastaa kyllä. Se on normaalia eikä se anna pääsyä muualle koneellesi.
+
+Tämä vaihe tehdään vain kerran. Ensi kerralla kansio on valmiina listassa ja sinä valitset sen sieltä.
 
 ### Vaihe 4. Tarkista että se toimii
 
@@ -106,7 +120,20 @@ Melkein aina kyse on siitä sisäkkäisestä kansiosta. Sulje kansio, avaa se uu
 Vastaa kyllä. Kysymys koskee vain tätä kansiota.
 
 **Kirjoitin `/aloita` eikä mitään tapahtunut.**
-Kirjoita se ilman lainausmerkkejä ja ilman välilyöntiä kauttaviivan jälkeen, sitten enter. Jos assistentti vastaa tavallisella keskustelulla eikä ala kysellä, kirjoita sen sijaan: *"lue tiedosto .claude/skills/aloita/SKILL.md ja toimi sen mukaan"*. Se tekee saman asian.
+Kirjoita se ilman lainausmerkkejä ja ilman välilyöntiä kauttaviivan jälkeen, sitten enter. Jos assistentti vastaa tavallisella keskustelulla eikä ala kysellä, kirjoita sen sijaan tämä:
+
+> lue tiedosto .claude/skills/aloita/SKILL.md ja toimi sen mukaan
+
+Kirjoita se sellaisenaan viestiksi. Sun ei tarvitse etsiä sitä tiedostoa koneelta, assistentti hoitaa sen.
+
+**Viestiraja tuli vastaan kesken haastattelun.**
+Maksullisessakin tilauksessa on käyttöraja, joka nollautuu muutaman tunnin välein. Sovellus kertoo milloin. Vastauksesi eivät katoa, koska ne tallentuvat tiedostoon sitä mukaa kun vastaat. Kun raja nollautuu, avaa kansio uudestaan ja kirjoita `/aloita`. Haastattelu jatkuu siitä mihin jäit.
+
+**Haastattelu keskeytyi ja pitää jatkaa myöhemmin.**
+Sama asia. Sulje vain sovellus. Kun palaat, kirjoita `/aloita` uudestaan. Se lukee jo annetut vastaukset eikä kysy niitä toiseen kertaan.
+
+**Pitääkö kansio avata joka kerta uudestaan?**
+Ei. Kansio jää sovelluksen listaan. Ensi kerralla valitset sen listasta etkä etsi sitä uudelleen koneelta.
 
 **Jos mikään näistä ei auta,** laita mulle sähköpostia osoitteeseen ilmari@polkuai.com. Kerro missä kohtaa jumitit ja mitä ruudulla luki. Vastaan samana päivänä. Ei tarvitse osata mitään, kysymys ei ole tyhmä.
 
@@ -202,13 +229,13 @@ Tiedostot pysyvät sun koneella. Mutta kun sä keskustelet assistentin kanssa, s
 
 Käytännössä tämä tarkoittaa kolmea asiaa. Maksullisten tilausten keskusteluja ei oletuksena käytetä mallien opettamiseen, mutta tarkista asetus itse tilisi kohdalta. Jos sulla on asiakassopimuksissa ehtoja tietojen käsittelystä, ne koskevat myös tätä. Ja arkaluontoisimmat tiedot, kuten henkilötunnukset tai terveystiedot, kannattaa jättää kokonaan pois näistä tiedostoista.
 
-Haastattelut ja tarkistusraportit merkitsin erikseen yksityisiksi, koska niihin päätyy usein asiakastietoa.
+Haastattelut ja tarkistusraportit merkitsin erikseen niin, että ne eivät lähde mukaan jos jaat kansion eteenpäin tai viet sen johonkin palveluun. Keskustelussa ne kulkevat samalla tavalla kuin muutkin tiedostot. Merkintä suojaa siis vahingossa jakamiselta, ei Anthropicilta.
 
 **Mitä jos mun kone hajoaa?**
 Sitten kansio on poissa, koska se on vain sun koneella. Ota siitä varmuuskopio samalla tavalla kuin muistakin työtiedostoistasi. Helpoin tapa on kopioida kansio muistitikulle kerran kuussa.
 
 **Voinko laittaa tänne salasanoja tai API-avaimia?**
-Et. Ne kuuluvat erilliseen tiedostoon, joka on jätetty jakamisen ulkopuolelle. Jos et tiedä mikä API-avain on, sä et tarvitse sitä vielä.
+Et. Salasanoille on oma tiedostonsa, joka ei lähde mukaan jos jaat kansion eteenpäin. Jos et tiedä mikä API-avain on, sä et tarvitse sitä vielä.
 
 **Vastasin johonkin väärin. Voinko korjata?**
 Voit. Helpoin tapa on sanoa assistentille: *"kysymyksen 3 vastaus meni väärin, korjaa se näin"*. Voit myös avata tiedoston `haastattelu.md` Muistiolla tai TextEditillä ja muokata sitä käsin. Kirjoita sen jälkeen `/aloita`, niin se päivittää muuttuneen kohdan.
@@ -233,8 +260,6 @@ Ei tarvitse. Paketti toimii sellaisenaan. Jos teen siihen parannuksia, kerron ni
 ## 9. Edistyneille
 
 Nämä eivät ole pakollisia. Ohita, jos edellinen osio riitti.
-
-Ensin yksi nimiasia, joka hämmentää monia. Se osa Clauden sovelluksesta, joka lukee kansioita, on nimeltään Claude Code. Sä et siis asentanut kahta eri ohjelmaa. Nimessä on sana koodi, mutta se toimii aivan yhtä hyvin tekstitiedostoille.
 
 **Git.** Jos osaat käyttää gitiä, kloonaa repo zipin lataamisen sijaan. Silloin saat päivitykset yhdellä komennolla ja oma historiasi säilyy.
 

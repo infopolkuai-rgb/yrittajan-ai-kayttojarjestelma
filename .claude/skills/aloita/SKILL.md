@@ -24,6 +24,10 @@ Kerro käyttäjälle kolme asiaa ennen ensimmäistä kysymystä:
 
 Yksi kysymys kerrallaan. Odota vastaus ennen seuraavaa. Älä näytä koko listaa etukäteen.
 
+**Tallenna jokainen vastaus heti `haastattelu.md`-tiedostoon, ennen kuin kysyt seuraavan.** Älä odota loppuun. Haastattelu kestää puoli tuntia, ja siinä ajassa ehtii tulla käyttöraja vastaan, puhelu väliin tai koneen sulkeminen. Jos vastaukset ovat levyllä, käyttäjä kirjoittaa `/aloita` uudelleen ja homma jatkuu. Jos ne ovat vain keskustelussa, kaikki alkaa alusta ja käyttäjä lopettaa.
+
+Muut tiedostot kirjoitetaan vasta lopussa, koska ne johdetaan useammasta vastauksesta.
+
 **1. Kuka olet, mitä myyt ja kenelle.**
 Kysy nimi, yritys, mitä yritys tekee, kuka on paras asiakas ja mistä hänet tunnistaa. Jos vastaus jää yleiselle tasolle, kuten "autan yrityksiä kasvamaan", kysy yksi tarkentava kysymys: kuka oli viimeisin asiakas ja mitä hän osti.
 
@@ -57,7 +61,7 @@ Se toistuva homma, josta käyttäjä ei pidä, ja se paikka, josta hän katsoo, 
 
 Kun kaikki seitsemän on vastattu, tee nämä tässä järjestyksessä.
 
-**1. `haastattelu.md`.** Tallenna vastaukset sanatarkasti oikeiden kysymysten alle. Tämä on lähde, josta kaikki muu johdetaan. Älä siisti käyttäjän sanamuotoja.
+**1. `haastattelu.md`.** Tämä on jo täytetty haastattelun aikana. Tarkista, että kaikki seitsemän vastausta ovat tallessa oikeiden kysymysten alla ja sanatarkasti. Tämä on lähde, josta kaikki muu johdetaan. Älä siisti käyttäjän sanamuotoja.
 
 **2. `tausta/yritys.md`.** Kysymyksestä 1. Täytä mitä teemme, kenelle, mitä myymme ja asiakkaat nyt.
 
