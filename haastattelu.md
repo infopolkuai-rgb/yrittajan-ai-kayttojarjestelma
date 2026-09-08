@@ -6,6 +6,14 @@ Muokkaa tätä ja aja `/aloita` uudelleen aina kun jokin muuttuu.
 
 ---
 
+## Assistentin nimi
+
+*Miksi haluat kutsua assistenttiasi. Tämä ei ole yksi seitsemästä kysymyksestä.*
+
+**Vastaus:**
+
+---
+
 ## 1. Kuka olet, mitä myyt ja kenelle
 
 *Nimi, yritys, mitä teette, kuka on paras asiakas ja mistä hänet tunnistaa.*

@@ -71,11 +71,12 @@ Tuoreus, enintään 10:
 
 | Pisteet | Tila |
 |---|---|
-| 0-2 | Ei mitään merkintää siitä, milloin tietoa on viimeksi katsottu |
-| 3-6 | Tieto on kirjattu kerran eikä siihen ole palattu |
-| 7-10 | Koe 4 osuu, päätöslokissa merkintöjä useammalta viikolta |
+| 0-2 | Tiedoissa ei ole päiväyksiä. Ei voi tietää, milloin ne on kirjattu |
+| 3-5 | Tieto on päivätty ja kirjattu kerran. Siihen ei ole palattu, päätösloki on tyhjä |
+| 6-8 | Päätöslokissa on merkintöjä, tai jokin tausta-tiedosto on päivitetty kirjaamisen jälkeen |
+| 9-10 | Koe 4 osuu, päätöslokissa merkintöjä useammalta viikolta |
 
-Ensimmäisessä ajossa tuoreus jää yleensä alle kolmen, koska päätöslokia ei ole vielä ehditty käyttää. Se on oikea tulos eikä virhe.
+Ensimmäinen ajo osuu lähes aina bändiin 3-5, koska `/aloita` päivää tiedot mutta päätöslokia ei ole vielä ehditty käyttää. Se on oikea tulos eikä virhe. Bändi 0-2 on niille, jotka ovat täyttäneet tiedostot käsin ilman päiväyksiä.
 
 **Työkalut (0-25).** Yltää sinne missä tieto on.
 
@@ -89,6 +90,8 @@ Ensimmäisessä ajossa tuoreus jää yleensä alle kolmen, koska päätöslokia 
 Kirjattu mutta kokeilematon yhteys on nolla. Tarkista `yhteydet.md`:n päivämäärät.
 
 Lisäpiste, enintään 3, jos puuttuvat yhteydet on tunnistettu ja lueteltu. Tämä lisätään mihin tahansa bändiin, myös nollan päälle. Käyttäjä, joka tietää tarkalleen mitä puuttuu, on paremmassa asemassa kuin se joka ei tiedä.
+
+Laske lisäpiste ensin, leikkaa summa sitten 25:een, ja vasta viimeisenä sovella kattosääntöä. Kerros ei voi missään tilanteessa ylittää 25:tä.
 
 **Taidot (0-25).** Osaa tehdä työn vaiheet.
 
@@ -139,10 +142,13 @@ Raportin osat järjestyksessä:
 2. Hakukokeiden taulukko tuloksineen
 3. Todisteet kerroksittain, laskutoimitus näkyvissä
 4. Kolme vahvuutta todisteineen
-5. Kolme korjausta
-6. Vertailu edelliseen raporttiin
+5. **Löydökset**, oma taulukkonsa: tunnus, kerros, yhden lauseen kuvaus
+6. Kolme korjausta, kukin viitaten löydöksen tunnukseen
+7. Vertailu edelliseen raporttiin
 
-Anna jokaiselle löydökselle tunnus muotoa `L1`, `L2`, `L3`. Numeroi ne siinä järjestyksessä kuin ne raportissa esiintyvät. Käytä samaa tunnusta seuraavassa raportissa, jos löydös on yhä auki. Tunnus on se, joka tekee vertailusta mahdollisen, joten anna se heti ensimmäisessä ajossa.
+**Löydöstaulukko on se osa, johon vertailu nojaa.** Kokoa siihen kaikki puutteet, jotka havaitsit vaiheissa 1 ja 2, riippumatta siitä missä kohtaa raporttia ne mainitaan. Anna jokaiselle tunnus muotoa `L1`, `L2`, `L3` ja numeroi ne kerroksittain tässä järjestyksessä: Tieto, Työkalut, Taidot, Tahti.
+
+Kerroksittainen numerointi on tarkoituksellinen. Se pitää tunnukset vakaina ajosta toiseen, vaikka raportin muu järjestys muuttuisi. Jos löydös on jo saanut tunnuksen aiemmassa raportissa, käytä sitä samaa äläkä numeroi uudelleen. Uudet löydökset saavat vapaana olevat numerot.
 
 **Vertailu edelliseen.** Lue viimeisin raportti kansiosta. Merkitse jokainen vanha löydös: korjattu, yhä auki, palasi, ei tarkistettu, tai ei enää ajankohtainen.
 

@@ -224,6 +224,9 @@ Ei sellaisenaan. Komennot ja tiedostojen luku on tehty Clauden työpöytäsovell
 **Missä mun tiedot ovat?**
 Sun koneella, siinä kansiossa. Voit avata jokaisen tiedoston ja lukea sen. Voit myös poistaa koko kansion, jolloin kaikki on poissa.
 
+**Jaan kansion kollegalle tai vien sen jonnekin. Mitä pitää muistaa?**
+Kolme tiedostoa täyttyy asiakastiedolla: alkuhaastattelu, ääniprofiili ja yritystiedot. Ääniprofiiliin päätyy kokonaisia asiakassähköposteja nimineen ja hintoineen. Poista ne tai siivoa ne ennen kuin jaat kansion eteenpäin. Tiedostossa `.gitignore` on tätä varten valmis ohje.
+
 **Näkeekö joku muu nämä? Entä asiakastiedot?**
 Tiedostot pysyvät sun koneella. Mutta kun sä keskustelet assistentin kanssa, se lukee tiedostot ja niiden sisältö kulkee samalla tavalla Anthropicin palvelimille kuin mikä tahansa viesti, jonka sä kirjoitat chattiin. Se on siis sama tilanne kuin liittäisit tekstin keskusteluun käsin.
 

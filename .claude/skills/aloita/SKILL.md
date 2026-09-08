@@ -20,6 +20,8 @@ Kerro käyttäjälle kolme asiaa ennen ensimmäistä kysymystä:
 2. Kysymys 2 vaatii liittämään omaa tekstiä. Se kannattaa etsiä valmiiksi.
 3. Vastaukset menevät tiedostoihin tässä kansiossa, ei mihinkään pilveen.
 
+Kysy samassa yhteydessä, miksi käyttäjä haluaa kutsua sinua. Tämä ei ole yksi seitsemästä kysymyksestä vaan nimen antaminen, ja se tehdään ennen niitä. Tallenna vastaus `haastattelu.md`:n kohtaan "Assistentin nimi". Jos käyttäjä ei keksi nimeä, ehdota kolmea ja anna hänen valita.
+
 ## Kysymykset
 
 Yksi kysymys kerrallaan. Odota vastaus ennen seuraavaa. Älä näytä koko listaa etukäteen.
@@ -71,11 +73,13 @@ Kaksi kohtaa jää tyhjäksi, koska haastattelu ei niitä kysy: hintasarake ja "
 
 Jakso alkaa tästä päivästä ja kestää 90 päivää, ellei käyttäjä sano toisin. Laske loppupäivä ja kirjoita molemmat näkyviin.
 
+Jokaisen tavoitteen "Tilanne"-kenttään kirjoitetaan `ei vielä kirjattu`, ellei käyttäjä kertonut tilannetta itse. Kenttä täyttyy viikoittaisessa käytössä. Älä arvaa siihen mitään.
+
 **4. `tausta/aani.md`.** Kysymyksestä 2. Liitä näytteet sellaisenaan. Kirjoita sen jälkeen "Mitä näytteistä huomaa" -osioon havainnot: sinuttelu vai teitittely, puhekieli vai kirjakieli, lauseiden pituus, aloitus- ja lopetustapa, toistuvat sanat. Kirjoita havainnot, älä sääntöjä. Jos näytteessä on puhekielinen kirjoitusasu, merkitse, että se on ääntä eikä virhe.
 
 **5. `yhteydet.md`.** Kysymyksistä 5, 6 ja 7, sekä kysymyksestä 4 siltä osin kuin siinä nimettiin järjestelmä. Kaikki mainitut järjestelmät menevät aluksi "Ei kytketty" -taulukkoon, koska mitään ei ole vielä kokeiltu. Kalenteri johdetaan kysymyksestä 5.
 
-**6. `CLAUDE.md`.** Korvaa hakasulkeissa olevat paikanvaraajat: `[YRITYKSEN NIMI]`, `[ETUNIMI]` ja `[ASSISTENTIN NIMI]`. Kysy assistentin nimi käyttäjältä, jos hän ei ole sitä maininnut. Poista rivi, jossa lukee että tiedosto on tyhjä pohja.
+**6. `CLAUDE.md`.** Korvaa hakasulkeissa olevat paikanvaraajat: `[YRITYKSEN NIMI]`, `[ETUNIMI]` ja `[ASSISTENTIN NIMI]`. Assistentin nimi on `haastattelu.md`:ssä omana kohtanaan. Poista rivi, jossa lukee että tiedosto on tyhjä pohja.
 
 Taivuta nimet oikein. Pohjassa lukee `[ETUNIMI]n` ja `[ETUNIMI]a`, mutta suora korvaus tuottaa väärän muodon konsonanttiin päättyvillä nimillä. Petri taipuu muotoon Petrin ja Petriä, Markus muotoon Markuksen ja Markusta. Lue lause läpi ennen kuin jätät sen.
 

@@ -13,6 +13,14 @@ haastattelut/*
 tarkistukset/*
 !tarkistukset/.gitkeep
 
+# HUOM. Nama tiedostot toimitetaan tyhjina pohjina, joten ne ovat mukana.
+# Kun /aloita on tayttanyt ne, niissa on asiakkaiden nimia, hintoja ja
+# kohteita. Jos viet oman kansiosi gitiin tai jaat sen eteenpain, poista
+# risuaidat naiden edesta:
+#haastattelu.md
+#tausta/aani.md
+#tausta/yritys.md
+
 # Roskaa
 .DS_Store
 Thumbs.db

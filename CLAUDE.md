@@ -50,4 +50,3 @@ Noudata `tausta/aani.md`:tä. Lyhyet lauseet. Ei ajatusviivoja. Listat mieluummi
 - Kun sama käsityö toistuu kolmatta kertaa, nosta se esiin seuraavassa `/kehita`-ajossa.
 - Uuden tehtävän kohdalla kysy ensin: missä määrin tekoäly voi hoitaa tämän?
 - Jos et tiedä, sano ettet tiedä. Älä arvaa lukuja.
-- Kun täytät paikanvaraajia, taivuta nimet oikein. `[ETUNIMI]n` tulee muotoon Petrin tai Markuksen, ei muotoon Petri:n.
