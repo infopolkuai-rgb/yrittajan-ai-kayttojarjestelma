@@ -66,6 +66,6 @@ Jätin haastattelut ja tarkistusraportit gitin ulkopuolelle, koska niihin päät
 
 ## Lisenssi
 
-MIT. Tee tällä mitä haluat, myös kaupallisesti. Katso [LICENSE](LICENSE).
+MIT. Tee tällä mitä haluat, myös kaupallisesti. Ehdot suomeksi: [LISENSSI.md](LISENSSI.md). Sitova teksti: [LICENSE](LICENSE).
 
 Tehnyt Ilmari Salmisto, [PolkuAI](https://polkuai.com). Jos rakennat tästä jotain, kuulisin siitä mielelläni.
