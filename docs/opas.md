@@ -44,7 +44,7 @@ Ohjelmointitaitoa ei tarvita. Komentoriviä ei tarvita.
 
 ## 3. Asennus
 
-Sä et lataa mitään etkä pura mitään. Assistentti kasaa kansion puolestasi.
+Sun ei tarvitse ladata mitään eikä purkaa mitään. Assistentti kasaa kansion puolestasi.
 
 **1. Luo uusi tyhjä kansio.** Vaikka työpöydälle, vaikka yrityksesi nimellä. Älä laita sitä OneDriveen tai Dropboxiin, koska synkronointi ja tiedostojen muokkaus tekevät joskus yhdessä tyhmyyksiä.
 
@@ -53,8 +53,8 @@ Sä et lataa mitään etkä pura mitään. Assistentti kasaa kansion puolestasi.
 **3. Liitä tämä viesti ja paina enter.**
 
 > Asenna tähän kansioon Yrittäjän AI-käyttöjärjestelmä.
-> Ohjeet ovat repon README-tiedostossa:
-> https://github.com/infopolkuai-rgb/yrittajan-ai-kayttojarjestelma
+> Ohjeet ovat tiedostossa ASENNUS.md:
+> https://github.com/infopolkuai-rgb/yrittajan-ai-kayttojarjestelma/blob/main/ASENNUS.md
 
 Assistentti hakee tiedostot ja kertoo kun kansio on kasassa. Se kestää minuutin. Voit seurata mitä se tekee, mutta sun ei tarvitse ymmärtää siitä mitään.
 
