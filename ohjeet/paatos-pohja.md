@@ -4,7 +4,7 @@ Kopioi tämä paatokset/loki.md-tiedoston alkuun uutta päätöstä varten.
 
 ---
 
-## [PÄIVÄMÄÄRÄ] — [Päätös yhdellä lauseella]
+## [PÄIVÄMÄÄRÄ]: [Päätös yhdellä lauseella]
 
 **Päätös:** Mitä päätettiin. Yksi tai kaksi lausetta, aktiivimuodossa.
 

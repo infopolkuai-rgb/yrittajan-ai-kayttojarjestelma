@@ -28,13 +28,13 @@ Muokkaa tätä ja aja `/aloita` uudelleen aina kun jokin muuttuu.
 
 ## 4. Mihin raha oikeasti laskeutuu ja missä sitä seurataan
 
-*Mitkä kaupat tuovat rahan, ja missä tiedostossa tai järjestelmässä sitä katsotaan.*
+*Mitkä kaupat tuovat rahan ja missä tiedostossa tai järjestelmässä sitä katsotaan.*
 
 **Vastaus:**
 
 ## 5. Missä puhut asiakkaille, tiimille ja ulkomaailmalle
 
-*Sähköposti, WhatsApp, Teams, Slack, LinkedIn, puhelin. Nimeä myös se, mikä on kalenterissa.*
+*Sähköposti, WhatsApp, Teams, Slack, LinkedIn, puhelin. Nimeä myös se kalenteri, jota käytät.*
 
 **Vastaus:**
 
@@ -46,6 +46,6 @@ Muokkaa tätä ja aja `/aloita` uudelleen aina kun jokin muuttuu.
 
 ## 7. Mikä tehtävä syö viikkosi ja missä seuraat tekemistä
 
-*Se homma, joka toistuu ja josta et pidä. Ja se paikka, josta katsot mitä on tekemättä.*
+*Se homma, joka toistuu ja josta et pidä. Ja se paikka, josta katsot, mitä on tekemättä. Arvioi myös montako tuntia viikossa se vie.*
 
 **Vastaus:**

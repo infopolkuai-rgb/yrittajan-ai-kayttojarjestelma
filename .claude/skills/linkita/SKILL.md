@@ -12,12 +12,12 @@ Tämä skilli lisää yhden rivin `CLAUDE.md`-tiedostoon ja varmistaa että se t
 ## Kulku
 
 **1. Selvitä kohde ja käyttötarkoitus.**
-Tarvitset kaksi asiaa: polku tai osoite, ja yksi lause siitä milloin tätä käytetään.
+Tarvitset kaksi asiaa. Polun tai osoitteen, ja yhden lauseen siitä, milloin tätä käytetään.
 
 Jos käyttäjä antoi vain polun, kysy käyttötarkoitus. Jos hän antoi vain kuvauksen, kysy polku. Älä arvaa kumpaakaan.
 
 **2. Tarkista että kohde on olemassa.**
-Paikallinen polku: katso että se löytyy. Jos ei löydy, kysy tarkoittiko käyttäjä jotain muuta. Älä lisää rikkinäistä reittiä.
+Paikallinen polku: katso, että se löytyy. Jos ei löydy, kysy tarkoittiko käyttäjä jotain muuta. Älä lisää rikkinäistä reittiä.
 
 Verkko-osoite: merkitse se varmistamattomaksi, jos et pääse sitä avaamaan. Reitin saa silti lisätä. Merkintä kertoo myöhemmin, ettei osoitetta ole testattu.
 
@@ -25,7 +25,7 @@ Verkko-osoite: merkitse se varmistamattomaksi, jos et pääse sitä avaamaan. Re
 Lue `CLAUDE.md` ja "Missä mikäkin on" -taulukko. Jos kohde löytyy jo jonkin olemassa olevan rivin kautta, älä lisää mitään. Kerro käyttäjälle mitä riviä pitkin se löytyy. Kahdesta reitistä samaan paikkaan tulee myöhemmin kaksi eri totuutta.
 
 **4. Lisää yksi rivi.**
-Muoto on aina sama kolmiosainen: **milloin käytetään → polku → mistä aloittaa.**
+Rivi menee `CLAUDE.md`:n "Missä mikäkin on" -taulukkoon. Vasempaan sarakkeeseen polku, oikeaan yksi lause siitä, milloin sinne mennään ja mistä tiedostosta aloitetaan.
 
 Esimerkki:
 
@@ -33,7 +33,7 @@ Esimerkki:
 
 Käytä suhteellista polkua, jos kohde on tämän kansion sisällä. Käytä täyttä polkua tai osoitetta, jos se on ulkopuolella.
 
-Pidä rivi lyhyenä. Reitti kertoo minne mennään, ei mitä siellä on. CLAUDE.md luetaan joka ajossa, ja jokainen turha sana maksaa.
+Pidä rivi lyhyenä. Reitti kertoo minne mennään, ei sitä mitä siellä on. CLAUDE.md luetaan joka ajossa ja jokainen turha sana maksaa.
 
 **5. Jos kohde on iso kansio, tee sille oma sisällysluettelo.**
 Kun kansiossa on yli viisi tiedostoa, älä listaa niitä CLAUDE.md:hen. Tee kansioon `README.md`, joka kertoo mistä aloittaa, ja osoita CLAUDE.md-rivi siihen. Näin pääohje pysyy lyhyenä.

@@ -17,7 +17,7 @@
 ## Kiellot
 
 - Ei ajatusviivoja
-- Ei pilkkua ja-sanan edessä. Poikkeus: pilkku joka sulkee sivulauseen
+- Ei pilkkua ja-sanan edessä. Poikkeus on pilkku, joka sulkee sivulauseen
 - Ei markkinointisanoja: kokonaisvaltainen, lisäarvo, saumaton, ratkaisukeskeinen
 - Ei kolmen listoja pelkän rytmin vuoksi
 - Ei tuloslupauksia, joita ei voi todistaa

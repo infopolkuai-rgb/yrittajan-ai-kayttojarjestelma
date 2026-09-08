@@ -6,23 +6,23 @@ Nyrkkisääntö: rakenteen pitää näyttää pieneltä hyvin hoidetulta yrityks
 
 ## Kun sinulla on useampi asiakas tai projekti
 
-`projektit/[asiakas]/` — yksi kansio per asiakas. Sisään: mitä sovittiin, missä mennään, mitä seuraavaksi. Kun projekti loppuu, siirrä koko kansio arkistoon.
+`projektit/[asiakas]/` on yksi kansio per asiakas. Sisään kirjataan mitä sovittiin, missä mennään ja mitä seuraavaksi. Kun projekti loppuu, siirrä koko kansio arkistoon.
 
 ## Kun teet samaa dokumenttia kolmatta kertaa
 
-`pohjat/` — tarjouspohja, palaverimuistio, viikkoraportti. Kolmas kerta on merkki. Kaksi ei vielä ole.
+`pohjat/` on paikka tarjouspohjalle, palaverimuistiolle ja viikkoraportille. Kolmas kerta on merkki. Kaksi ei vielä ole.
 
 ## Kun sama monivaiheinen homma toistuu
 
-`.claude/skills/[nimi]/SKILL.md` — oma komento. Katso mallia olemassa olevista skilleistä. `/kehita` osaa rakentaa tällaisen puolestasi.
+`.claude/skills/[nimi]/SKILL.md` on oma komento. Katso mallia olemassa olevista komennoista. `/kehita` osaa rakentaa tällaisen puolestasi.
 
-## Kun tarvitset tietoa muistiin joka ajoon
+## Kun jokin tieto pitää muistaa joka ajossa
 
 Uusi tiedosto `tausta/`-kansioon. Muista lisätä siihen reitti CLAUDE.md-tiedostoon, muuten assistentti ei löydä sitä. `/linkita` hoitaa reitin.
 
 ## Kun jokin on ohi
 
-Siirrä se `arkisto/`-kansioon. Älä poista. Vanha tarjous kertoo mitä hinnoittelit vuosi sitten, ja se on arvokasta.
+Siirrä se `arkisto/`-kansioon. Älä poista. Vanha tarjous kertoo, mitä hinnoittelit vuosi sitten. Se tieto on arvokasta.
 
 ## Kun kansio kasvaa liian isoksi
 
@@ -30,4 +30,4 @@ Jaa se. Jos et enää löydä tiedostoa muistista, kansio on liian iso tai nimet
 
 ## Milloin tiedät että on aika laajentaa
 
-Kun huomaat etsiväsi samaa asiaa toista kertaa, tai kun assistentti vastaa väärin siksi että jokin tieto puuttuu. Aja `/tarkista`, se kertoo mikä kerros ontuu.
+Kun huomaat etsiväsi samaa asiaa toista kertaa, tai kun assistentti vastaa väärin siksi, että jokin tieto puuttuu. Aja `/tarkista`, se kertoo mikä kerros ontuu.

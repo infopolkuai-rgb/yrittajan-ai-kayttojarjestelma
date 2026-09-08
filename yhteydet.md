@@ -1,8 +1,8 @@
 # Yhteydet
 
-Luettelo siitä, mihin assistentti oikeasti yltää. `/aloita` täyttää tämän kysymyksistä 4-7 ja `/tarkista` tarkistaa, pitääkö tämä yhä paikkansa.
+Luettelo siitä, mihin assistentti yltää. `/aloita` täyttää tämän kysymyksistä 5-7 ja `/tarkista` tarkistaa, pitääkö se yhä paikkansa.
 
-Sääntö: tähän merkitään vain se, mikä on kokeiltu. Pitäisi toimia ei ole yhteys.
+Sääntö: tähän merkitään vain se, mikä on kokeiltu. "Pitäisi toimia" ei ole yhteys.
 
 ## Kytketty
 
@@ -20,4 +20,4 @@ Sääntö: tähän merkitään vain se, mikä on kokeiltu. Pitäisi toimia ei ol
 
 ## Salaisuudet
 
-Tunnukset, avaimet ja salasanat eivät kuulu tähän tiedostoon eivätkä mihinkään muuhun tiedostoon tässä kansiossa. Käytä `.env`-tiedostoa, joka on jätetty gitin ulkopuolelle.
+Tunnukset, avaimet ja salasanat eivät kuulu tähän tiedostoon eivätkä mihinkään muuhun tiedostoon tässä kansiossa. Käytä `.env`-tiedostoa. Jätin sen jakamisen ulkopuolelle juuri tätä varten.

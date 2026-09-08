@@ -21,15 +21,15 @@ Kolme tapaa pitää asenne kunnossa:
 
 **Pilko työ osiin.** "Asiakasraportointi" ei ole tehtävä vaan nippu tehtäviä: hae luvut, tarkista poikkeamat, kirjoita selitys, muotoile, lähetä. Tekoäly ei ehkä osaa koko nippua. Se osaa melkein varmasti kolme viidestä. Ihmiset hylkäävät automaation liian aikaisin, koska katsovat isoa möykkyä eivätkä paloja.
 
-**Kokeile kun et tiedä.** Jos et osaa sanoa hoituuko jokin tekoälyllä, kokeilu kestää viisi minuuttia ja arvailu kestää kuukauden. Kokeile.
+**Kokeile kun et tiedä.** Jos et osaa sanoa, hoituuko jokin tekoälyllä, kokeilu kestää viisi minuuttia ja arvailu kuukauden. Kokeile.
 
-**Odota alkukankeutta.** Ensimmäisellä viikolla olet hitaampi kuin ennen. Se ei ole merkki siitä että tämä ei toimi. Se on merkki siitä että opettelet. Kankeus menee ohi noin kahdessa viikossa. Useimmat lopettavat sitä ennen.
+**Odota alkukankeutta.** Ensimmäisellä viikolla olet hitaampi kuin ennen. Se ei ole merkki siitä, että tämä ei toimi. Se on merkki siitä, että opettelet. Kankeus menee ohi noin kahdessa viikossa, ja siihen asti tuntuu siltä, että vanha tapa oli nopeampi.
 
 ### Askeleet
 
 Kun olet päättänyt että jokin kannattaa automatisoida, mene näin. Järjestys ei ole koriste.
 
-**1. Etsi pullonkaula.** Mikä yksi asia hidastaa juuri nyt eniten? Älä automatisoi sitä mikä on helpointa automatisoida. Automatisoi se mikä sattuu. Hyvä testi: jos tämä katoaisi huomenna, huomaisitko sen?
+**1. Etsi pullonkaula.** Mikä yksi asia hidastaa juuri nyt eniten? Älä automatisoi sitä mikä on helpointa automatisoida. Automatisoi se mikä sattuu. Hyvä testi on tämä: jos homma katoaisi huomenna, huomaisitko sen?
 
 **2. Poista, automatisoi tai delegoi. Tässä järjestyksessä.** Ensin kysy pitääkö tätä tehdä ollenkaan. Iso osa toistuvasta työstä on tapa, ei tarve. Sen jälkeen kysy voiko tekoäly hoitaa sen. Vasta viimeisenä kysy kuka ihminen sen tekee. Automatisoitu turha työ on edelleen turhaa työtä.
 
@@ -60,7 +60,7 @@ Kun rakennat, nämä säännöt pitävät homman kasassa.
 
 **Kohtele sitä kuin uutta harjoittelijaa.** Harjoittelija on fiksu mutta ei tunne taloa. Se ei tiedä mitä et sanonut. Anna sille sama konteksti, jonka antaisit ihmiselle: mitä tehdään, kenelle, miltä hyvä lopputulos näyttää, mitä ei saa tehdä.
 
-**Aina pysäytysnappi.** Sinun pitää pystyä lopettamaan automaatio yhdellä liikkeellä. Ilman sitä et uskalla nostaa sitä tasolle 3, ja järjestelmä jää ikuiseksi demoksi.
+**Aina pysäytysnappi.** Sinun pitää pystyä lopettamaan automaatio yhdellä liikkeellä. Ilman sitä et uskalla nostaa sitä tasolle 3 ja järjestelmä jää ikuiseksi demoksi.
 
 **Tylsä on kaunista.** Yksinkertainen kone, joka toimii joka päivä, voittaa nokkelan kokeilun. Jos kaksi tapaa tekee saman, valitse tylsempi.
 

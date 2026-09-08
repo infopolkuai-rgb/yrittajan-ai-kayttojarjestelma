@@ -1,6 +1,6 @@
 ---
 name: syvenna
-description: Syventävä haastattelu, joka purkaa käyttäjän pään sisällön tiedostoon. Käytä kun käyttäjä sanoo "syvennä", "haastattele mua", "kysele multa", "auta mua miettimään tätä", "purataan tämä auki", "grillaa mua", tai kun hän haluaa tallentaa suunnitelman, prosessin tai taustatiedon järjestelmään. Kysyy yhden kysymyksen kerrallaan ja tallentaa jokaisen vastauksen heti levylle.
+description: Syventävä haastattelu, joka purkaa käyttäjän pään sisällön tiedostoon. Käytä kun käyttäjä sanoo "syvennä", "haastattele mua", "kysele multa", "auta mua miettimään tätä", "puretaan tämä auki", "grillaa mua", tai kun hän haluaa tallentaa suunnitelman, prosessin tai taustatiedon järjestelmään. Kysyy yhden kysymyksen kerrallaan ja tallentaa jokaisen vastauksen heti levylle.
 ---
 
 # Syventävä haastattelu
@@ -26,7 +26,7 @@ Jos kirjoitus epäonnistuu, pysähdy ja kerro se. Älä jatka kysymistä ja äl�
 **3. Luo tiedosto ennen ensimmäistä kysymystä.**
 Polku: `haastattelut/VVVV-KK-PP-aihe.md`, esimerkiksi `haastattelut/2026-09-08-hinnoittelu.md`. Aihe pienillä kirjaimilla, sanat väliviivoilla, ei ääkkösiä tiedostonimessä.
 
-Jos samana päivänä on jo saman niminen tiedosto, lisää perään `-2`. Älä koskaan korvaa vanhaa.
+Jos samana päivänä on jo samanniminen tiedosto, lisää perään `-2`. Älä koskaan korvaa vanhaa.
 
 Tiedoston alkuun otsikko, päivämäärä ja yhden lauseen kuvaus siitä mitä ollaan selvittämässä.
 
@@ -63,7 +63,7 @@ Ehdota itse lopetusta, kun aihe on käyty läpi eikä uusi kysymys enää tuota 
 
 **Tartu ristiriitaan.** Jos vastaus on ristiriidassa aiemman kanssa, sano se ääneen ja kysy kumpi pätee. Älä korjaa hiljaa.
 
-**Kysy myös se, mikä ei toiminut.** Epäonnistumiset ovat käyttökelpoisempaa tietoa kuin onnistumiset, ja ne jäävät kirjaamatta jos niitä ei kysy.
+**Kysy myös se, mikä ei toiminut.** Epäonnistumiset ovat käyttökelpoisempaa tietoa kuin onnistumiset ja ne jäävät kirjaamatta, jos niitä ei kysy.
 
 **Älä opeta.** Tämä on haastattelu. Jos käyttäjä kysyy mielipidettäsi, anna se lyhyesti ja palaa kysymään.
 
@@ -82,4 +82,4 @@ Kun haastattelu päättyy:
 - Yksi kysymys kerrallaan. Aina.
 - Ei muutoksia järjestelmiin, sähköpostiin tai kalenteriin. Tämä skilli vain kysyy ja kirjoittaa.
 - Ei salasanoja eikä avaimia tiedostoon. Jos käyttäjä liittää sellaisen, jätä se pois tallennuksesta ja kerro miksi.
-- Haastattelutiedostot ovat yksityisiä. Ne on jätetty gitin ulkopuolelle. Älä siirrä niitä muualle.
+- Haastattelutiedostot ovat yksityisiä ja gitin ulkopuolella. Älä siirrä niitä muualle.

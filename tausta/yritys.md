@@ -14,8 +14,10 @@
 |---|---|---|
 | | | |
 
+*Alkuhaastattelu ei kysy hintoja. Täytä ne itse, kun ehdit. Assistentti ei arvaa niitä.*
+
 ## Asiakkaat nyt
 
 ## Mitä emme tee
 
-*Rajat ovat yhtä tärkeitä kuin tarjoama. Kirjaa se työ, jota et ota vastaan.*
+*Rajat ovat yhtä tärkeitä kuin tarjoama. Kirjaa se työ, jota et ota vastaan. Tämäkin jää alkuhaastattelussa tyhjäksi, ellet mainitse rajoja itse.*

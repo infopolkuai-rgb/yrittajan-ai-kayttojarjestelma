@@ -13,7 +13,7 @@ Tässä se paketti. Se on tyhjä pohja, joka opettaa Clauden tuntemaan sun
 yrityksen, niin ettei sun tarvitse selittää sitä joka kerta uudestaan.
 Asennus vie vartin eikä vaadi koodaamista.
 
-Ohje: [google docs -linkki]
+Ohje: [Google Docs -linkki]
 Paketti: [github-linkki]
 
 Aloita ohjeesta, siinä on jokainen askel järjestyksessä. Laita viestiä jos
@@ -33,7 +33,7 @@ Laitoin sulle DM:ään. Ohje ja paketti, molemmat ilmaisia.
 ## Jos joku kysyy julkisesti mistä sen saa
 
 ```
-Tässä: [github-linkki]. Ohje löytyy repon docs-kansiosta. Ilmainen ja MIT,
+Tässä: [github-linkki]. Ohje on paketin docs-kansiossa. Ilmainen ja MIT,
 saa muokata ja käyttää myös kaupallisesti.
 ```
 

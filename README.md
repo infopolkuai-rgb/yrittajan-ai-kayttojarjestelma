@@ -8,7 +8,7 @@ Kun tämä on käytössä, sinun ei tarvitse selittää joka keskustelussa mitä
 
 ## Mitä tämä on
 
-Kansio tiedostoja. Ei ohjelma, ei sovellus, ei tunnuksia. Osa tiedostoista on faktoja sinusta ja yrityksestäsi. Osa on komentoja, joita assistentti osaa ajaa.
+Kansio tiedostoja. Ei ohjelmaa, ei sovellusta, ei omia tunnuksia. Osa tiedostoista on faktoja sinusta ja yrityksestäsi. Osa on komentoja, joita assistentti osaa ajaa.
 
 Tiedostot pysyvät sinun koneellasi. Voit lukea ja muokata jokaista niistä tavallisella tekstieditorilla.
 
@@ -58,11 +58,11 @@ Laajentaminen: [LAAJENNUKSET.md](LAAJENNUKSET.md). Älä luo kansioita etukätee
 
 **Kolme A:ta** on ajattelutapa: Asenne, Askeleet, Automaatio. **Neljä T:tä** on rakenne: Tieto, Työkalut, Taidot, Tahti. Molemmat auki tiedostossa [ohjeet/tyoskentelymalli.md](ohjeet/tyoskentelymalli.md).
 
-Lyhyesti: kysy jokaisen uuden tehtävän kohdalla missä määrin tekoäly voi hoitaa sen, etene pullonkaulasta mittariin, rakenna pieninä paloina ja aja ensin käsin. Järjestelmässä Tieto tulee ensin ja Tahti viimeisenä.
+Kysy jokaisen uuden tehtävän kohdalla, missä määrin tekoäly voi hoitaa sen. Etene pullonkaulasta mittariin. Rakenna pieninä paloina ja aja ensin käsin. Järjestelmässä Tieto tulee ensin ja Tahti viimeisenä.
 
 ## Yksityisyys
 
-Haastattelut ja tarkistusraportit on jätetty gitin ulkopuolelle, koska niissä on yleensä asiakastietoa. Salasanat ja avaimet eivät kuulu mihinkään tämän kansion tiedostoon.
+Jätin haastattelut ja tarkistusraportit gitin ulkopuolelle, koska niihin päätyy yleensä asiakastietoa. Salasanat ja avaimet eivät kuulu mihinkään tämän kansion tiedostoon.
 
 ## Lisenssi
 
