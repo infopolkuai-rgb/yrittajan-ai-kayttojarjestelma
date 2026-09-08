@@ -66,7 +66,7 @@ rm -rf .tmp-aios aios.zip
 ```powershell
 git clone --depth 1 https://github.com/infopolkuai-rgb/yrittajan-ai-kayttojarjestelma.git .tmp-aios
 Remove-Item ".tmp-aios\.git" -Recurse -Force
-Get-ChildItem -Path ".tmp-aios" -Force | Move-Item -Destination "." -Force
+Copy-Item -Path ".tmp-aios\*" -Destination "." -Recurse -Force
 Remove-Item ".tmp-aios" -Recurse -Force
 ```
 
@@ -76,11 +76,13 @@ Remove-Item ".tmp-aios" -Recurse -Force
 [Net.ServicePointManager]::SecurityProtocol = 'Tls12'
 Invoke-WebRequest -Uri "https://github.com/infopolkuai-rgb/yrittajan-ai-kayttojarjestelma/archive/refs/heads/main.zip" -OutFile "aios.zip"
 Expand-Archive -Path "aios.zip" -DestinationPath ".tmp-aios" -Force
-Get-ChildItem -Path ".tmp-aios\yrittajan-ai-kayttojarjestelma-main" -Force | Move-Item -Destination "." -Force
+Copy-Item -Path ".tmp-aios\yrittajan-ai-kayttojarjestelma-main\*" -Destination "." -Recurse -Force
 Remove-Item ".tmp-aios", "aios.zip" -Recurse -Force
 ```
 
-Ensimmäinen rivi asettaa TLS 1.2:n. Ilman sitä lataus kaatuu vanhemmassa Windowsissa virheeseen, joka puhuu SSL-kanavasta, eikä käyttäjä osaa tulkita sitä.
+Molemmissa PowerShell-lohkoissa käytetään `Copy-Item`ia eikä `Move-Item`ia. `Move-Item` kaatuu virheeseen, jos kohdekansio on jo olemassa, ja niin käy aina kun asennus ajetaan uudestaan kesken jääneen yrityksen päälle. `Copy-Item -Recurse -Force` yhdistää kansiot.
+
+Arkistolohkon ensimmäinen rivi asettaa TLS 1.2:n. Ilman sitä lataus kaatuu vanhemmassa Windowsissa virheeseen, joka puhuu SSL-kanavasta, eikä käyttäjä osaa tulkita sitä.
 
 ### Siivouskomento kesken jääneen yrityksen jälkeen
 
@@ -107,13 +109,13 @@ Aja nämä ja katso tuloste. Aja jokainen erikseen.
 ```bash
 ls -a
 ls .claude/skills
-ls .claude/skills/*/SKILL.md
+ls .claude/skills/*/SKILL.md | wc -l
 ```
 
 ```powershell
 Get-ChildItem -Force
 Get-ChildItem ".claude\skills"
-Get-ChildItem ".claude\skills\*\SKILL.md"
+(Get-ChildItem ".claude\skills\*\SKILL.md").Count
 ```
 
 Kansion juuressa pitää olla nämä tiedostot:
@@ -124,7 +126,7 @@ Ja nämä kansiot:
 
 `.claude/`, `tausta/`, `ohjeet/`, `paatokset/`, `arkisto/`, `haastattelut/`, `tarkistukset/`, `docs/`
 
-`.claude/skills/` alla pitää olla viisi kansiota: `aloita`, `syvenna`, `linkita`, `tarkista`, `kehita`. **Jokaisessa niistä pitää olla `SKILL.md`.** Tyhjä kansio ei riitä, ja viimeinen komento löytää täsmälleen viisi tiedostoa.
+`.claude/skills/` alla pitää olla viisi kansiota: `aloita`, `syvenna`, `linkita`, `tarkista`, `kehita`. **Jokaisessa niistä pitää olla `SKILL.md`.** Tyhjä kansio ei riitä. Viimeisen komennon pitää tulostaa luku **5**. Jos se tulostaa jotain muuta, asennus on kesken.
 
 Kansiossa ei saa olla näitä: `.tmp-aios`, `aios.zip`, `.git`.
 
